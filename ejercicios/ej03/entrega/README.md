@@ -2,7 +2,7 @@
 
 Simulación del modulador en banda base y el canal.
  
-El sistem a desarrolar es el siguiente:
+El sistema a desarrolar es el siguiente:
 
 ![Modulador + Canal](../images/ej03-sistema.png)
 
@@ -37,7 +37,9 @@ enunciado:
 ![Salida](../images/Senales_con_y_sin_ruido.jpg)
 
 En el ítem [6] se vuelen a mostrar las x[k] y los espectros, con y sin
-ruido. Se onserva que el coseno elevado , 
+ruido. Se observa que el coseno elevado posee el espectro más limpio.
+
+![estectros](../images/estectros.jpg) 
 
 En la opción [7] se hace una comparación del espectro del coseno elevado
 y una onda cuadrada.
