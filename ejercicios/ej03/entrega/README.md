@@ -39,7 +39,7 @@ enunciado:
 En el ítem [6] se vuelen a mostrar las x[k] y los espectros, con y sin
 ruido. Se observa que el coseno elevado posee el espectro más limpio.
 
-![estectros](../images/estectros.jpg) 
+![espectros](../images/espectros.jpg) 
 
 En la opción [7] se hace una comparación del espectro del coseno elevado
 y una onda cuadrada.
