@@ -35,7 +35,7 @@ es en donde se encuentran los datos del canal.
 ![](Imagenes/script_4.jpg)
 
 En el preámbulo se observa (en el siguiente gráfico), la señal azul es la original, en rojo es la elevada al cuadrado, y
-en amerillo es la señal rojo filtrada, con eso se puede obtener un nivel de señal para saber cuando hay datos en el canal o no.
+en amarillo es la señal rojo filtrada, con eso se puede obtener un nivel de señal para saber cuando hay datos en el canal o no.
 
 ![](Imagenes/script_5.jpg)
 
