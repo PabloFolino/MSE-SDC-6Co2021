@@ -6,11 +6,11 @@ use ieee.math_real.all;
 use std.textio.all;
 
 -- entity
-entity tb_bb_modulator is
-end entity tb_bb_modulator;
+entity tb_bb_modulator_and_chanel is
+end entity tb_bb_modulator_and_chanel;
 
 -- architecture
-architecture rtl of tb_bb_modulator is
+architecture rtl of tb_bb_modulator_and_chanel is
 
   -- components
   component bb_modulator is
@@ -37,53 +37,28 @@ architecture rtl of tb_bb_modulator is
     );
   end component bb_modulator;
 
-	-- component
-  component bb_channel is
-	port
-	(
-		-- clk, en, rst
-		clk_i         : in  std_logic;
-		en_i          : in  std_logic;
-		srst_i        : in  std_logic;
-		-- Input Stream
-		is_data_i     : in  std_logic_vector(9 downto 0);
-		is_dv_i       : in  std_logic;
-		is_rfd_o      : out std_logic;
-		-- Output Stream
-		os_data_o     : out std_logic_vector(9 downto 0);
-		os_dv_o       : out std_logic;
-		os_rfd_i      : in  std_logic;
-		--Control
-		sigma_i       : in  std_logic_vector(15 downto 0)
-	);
-  end component bb_channel;
-
   -- signals
-  signal tb_dut_clk_i      			: std_logic := '1';
-  signal tb_dut_en_i       			: std_logic;
-  signal tb_dut_srst_i     			: std_logic;
-  signal tb_dut_is_data_i  			: std_logic_vector(7 downto 0);
-  signal tb_dut_is_dv_i    			: std_logic;
-  signal tb_dut_is_rfd_o   			: std_logic;
-  signal tb_dut_os_data_o  			: std_logic_vector(9 downto 0);
-  signal tb_dut_os_dv_o    			: std_logic;
-  signal tb_dut_os_rfd_i   			: std_logic;
-  signal tb_dut_send_i     			: std_logic;
-  signal tb_dut_tx_rdy_o   			: std_logic;
-  signal tb_dut_chanel_os_data_o  	: std_logic_vector(9 downto 0);
-  signal tb_dut_chanel_os_dv_o    	: std_logic;
-  signal tb_dut_chanel_os_rfd_i   	: std_logic;
+  signal tb_dut_clk_i      : std_logic := '1';
+  signal tb_dut_en_i       : std_logic;
+  signal tb_dut_srst_i     : std_logic;
+  signal tb_dut_is_data_i  : std_logic_vector(7 downto 0);
+  signal tb_dut_is_dv_i    : std_logic;
+  signal tb_dut_is_rfd_o   : std_logic;
+  signal tb_dut_os_data_o  : std_logic_vector(9 downto 0);
+  signal tb_dut_os_dv_o    : std_logic;
+  signal tb_dut_os_rfd_i   : std_logic;
+  signal tb_dut_send_i     : std_logic;
+  signal tb_dut_tx_rdy_o   : std_logic;
 
-  constant SAMPLE_PERIOD   			: time    := 62500 ps;
-  constant N_TX            			: integer := 5;
-  constant N_ZEROS         			: integer := 123;
+  constant SAMPLE_PERIOD   : time    := 62500 ps;
+  constant N_TX            : integer := 5;
+  constant N_ZEROS         : integer := 123;
 
 begin
 
   ------------------------------------------------------------
   -- BEGIN DUT
   ------------------------------------------------------------
-  --DUT: MODULADOR
   dut : bb_modulator
   port map (
 	-- clk, en, rst                   
@@ -105,26 +80,6 @@ begin
     send_i   	=> 	tb_dut_send_i,      
     tx_rdy_o   	=>	tb_dut_tx_rdy_o
   );
-  
-  --DUT: CHANNEL
-  dut_chanel : bb_channel 
-  port map (
-		-- clk, en, rst
-		clk_i    	=>  tb_dut_clk_i,   
-		en_i     	=>  tb_dut_en_i,
-		srst_i    	=>  tb_dut_srst_i,
-		-- Input Stream
-		is_data_i    	=>  tb_dut_os_data_o, 
-		is_dv_i      	=>  tb_dut_os_dv_o, 
-		is_rfd_o     	=>  tb_dut_os_rfd_i, 
-		-- Output Stream
-		os_data_o     	=>  tb_dut_chanel_os_data_o,
-		os_dv_o      	=> 	tb_dut_chanel_os_dv_o,
-		os_rfd_i     	=>  tb_dut_chanel_os_rfd_i,
-		--Control
-		sigma_i       	=>  x"0007"
-	);
- 
   ------------------------------------------------------------
   -- END DUT
   ------------------------------------------------------------
@@ -225,6 +180,4 @@ begin
   ------------------------------------------------------------
 
 end architecture;
-
-
 
