@@ -11,13 +11,13 @@ canal.
 
 ### Diagramas en bloque
 
-![Diagrama en bloques del modulador](./images/BD-bb_modulator.png)
+![Diagrama en bloques del modulador](Imagenes/BD-bb_modulator.png)
 
-![Diagrama en bloques del canal](./images/BD-bb_channel.jpg)
+![Diagrama en bloques del canal](Imagenes/BD-bb_channel.jpg)
 
 
 ### Respuestas
-Ac continución se observa la instanciación del canal en el testbench, se destacan las señales de entrada y de salida.
+A continución se observa la instanciación del canal en el testbench, se destacan las señales de entrada y de salida.
 
 ![](Imagenes/TB_chanel.jpg)
 
