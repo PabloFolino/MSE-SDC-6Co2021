@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Dec  1 23:05:11 2021
+[*]
+[dumpfile] "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/verification/tb_bb_modulator_and_chanel/waves.fst"
+[dumpfile_mtime] "Wed Dec  1 23:03:42 2021"
+[dumpfile_size] 180397
+[savefile] "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/verification/tb_bb_modulator_and_chanel/wave.gtkw"
+[timestart] 59000000000
+[size] 1299 713
+[pos] -51 -51
+*-35.039989 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 432
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 192
+@8420
+dut.os_data_o[9:0]
+@20000
+-
+-
+@20001
+-
+[pattern_trace] 1
+[pattern_trace] 0
