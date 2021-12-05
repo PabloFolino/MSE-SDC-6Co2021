@@ -33,7 +33,7 @@ Seguidamente se observan las señales del modulador(entradas,configuración y de
 
 ![Sampleo](Imagenes/sampleo.jpg) 
    
-![Modulador](Imagenes/modulator.jpg)
+![Modulador](Imagenes/modulador.jpg)
    
    
 En el canal, se observan la señal de entrada(sin ruido), las de control, y las de salida(con ruido). 
@@ -43,7 +43,7 @@ En el canal, se observan la señal de entrada(sin ruido), las de control, y las 
    
  En el siguiente gráfico s eobsevan las señales del demodulador(entrada con ruido, salida del filtro,subsampleada, la salida estimada en binario, y señales de config-control).
    
-![Demodulador](Imagenes/demodulator.jpg)
+![Demodulador](Imagenes/demodulador.jpg)
    
 A conftinuación se muestran las señales de sincronización , en el recuadro rosa se observa en donde hay mayor error y es endondo comienza a sincronizarse.
 Cuando aparecen los datos(entre los dos recuadros rosas), se observa que el pll está bastante sincronizado.
