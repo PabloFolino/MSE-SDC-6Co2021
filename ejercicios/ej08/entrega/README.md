@@ -58,9 +58,9 @@ is_data_i --> Dato de entrada al modulador
 
 send_i 	 --> indica cuando comienza una transmisión
 
-tx_rdy_o --> undica cuando el moden está listo para transmitir
-			 con esta entrada en 1 y un fanco asce en send_i comienza a
-			 Tx(transamitir)
+tx_rdy_o --> indica cuando el moden está listo para transmitir
+			 con esta entrada en 1 y un flanco ascendentes send_i comienza a
+			 Tx(transmitir)
 
 nm1_bytes_i  --> cantidad de bytes a transmitir. Ej: si pongo 7 indico 
 				 que voy a Tx 8 Bytes. En el ejemplo de la simulación 
