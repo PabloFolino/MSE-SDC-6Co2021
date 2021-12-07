@@ -18,6 +18,12 @@ que incluye tanto al modulador como al demodulador.
 ![Diagrama en bloques del canal](Imagenes/BD-bb_demodulator.png)
 
 
+El modulador y el demodulador, se conectan de la siguiente manera:
+
+![Modem](Imagenes/BD-bb_modem.jpg)
+
+
+
 ### Respuesta
 
 1. Se genera el test-bench "tb_test_modem_channel.vhd"
