@@ -27,15 +27,20 @@ símbolo de 1MHz y frecuencia de sampleo de 16MHz.
 Tipo de pulso es raiz de coseno elevado, con energía constante unitaria.
 
 El sistema se conecta por una UART a 115200 baudios tanto como para transmitir 
-como para recibir, sin paridad, con 8 bits de datos y un bot de stop.
+como para recibir, sin paridad, con 8 bits de datos y un bit de stop.
 
+**Importante**: el bloque **u_send_logic**, lleva el control de la cantidad de datos(8 bits)que hay en el bloque **u_tx_fifo**.
+Si hay más de 4 datos habilita la señal **send_i** del bloque del **u_modem**, así comienza a transmitir. 
+este blque se da cuenta cuantos datos entran o salen de la fifo mediante dos línea de en trada y dos líneas de salida  llamada **dv** y**rfd**.
+Cuando ambas líneas está en uno, significa que entró o salió un dato.
 
+  
 ### El moden está compuesto por dos bloques(modulador y el demodulador):
 
 ![Modem](Imagenes/BD-bb_modem.jpg)
 
-Las señales que controlan al moden provinen del bloque de "Registros de 
-configuración y GPIO"
+Las señales que controlan al moden provinen del bloque de "**Registros de 
+configuración y GPIO**"
 
 + La transmisión es asindrónica con un preámbulo de sincronización(setado en **nm1_pre_i=15**) 
 y delimitador de trama(seteado para dos bits --> **nm1_sfd_i=1**) configurable.
@@ -50,12 +55,12 @@ para 4 bytes(**nm1_bytes_i=3**).
 + La señal **tx_rdy_o**, indica cuando el moden está listo para transmitir
 con esta entrada en 1 y un flanco ascente en  send_i comienza a Tx(transamitir).
 
-### El canal se conecta con el modem mediante dos interfaces(conversores **ADC** y **DAC**), ambos con 10bits de datos en formato **Q10.8**, con 
- indicación de ***underflow*** y ***overflow***. El **ADC** y el **DAC**
- poseen un clock común.
+### El canal se conecta con el modem mediante dos interfaces(conversores **ADC** y **DAC**) 
 
 ![Canal](Imagenes/BD-bb_channel.jpg)
 
++ Ambas interfaces con 10bits de datos en formato **Q10.8**, con indicación de ***underflow*** y ***overflow***.
++ El **ADC** y el **DAC** poseen un clock común.
 + El canal simula un ruido blanco aproximadamente Gaussiano configurable 
 mediante la variable **sigma_i**.
 + La respuesta en frecuencia está implementada mediante un FIR de largo 
