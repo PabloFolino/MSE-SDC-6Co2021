@@ -114,3 +114,16 @@ Simula el canal de comunicación y agrega un ruido semi Gaussiano. En amarillo e
 ![Canal](Imagenes/canal1.jpg)
 
 
+## Otras simulaciones
+
+### Aumentando el ruido
+
+Se aumenta el sigma de 0x40 a 0x80, y el sistema sigue respondiendo
+![Aumento deruido](Imagenes/aumento_noise.jpg)
+
+### Se disminuye los bs de preámbulo y ls de **sfd**
+
+Se disminuye los bits de preámbulo de 8 a 4, y los de **sfd** de 4 a dos, y el sistema sigue respondiendo.
+![Disminuye pre](Imagenes/disminir_pre_sfd.jpg)
+ 
+

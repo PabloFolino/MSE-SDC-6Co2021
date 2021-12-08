@@ -74,8 +74,8 @@ architecture rtl of top_edu_bbt is
 
   -- Modem config
   constant nm1_bytes_c  : std_logic_vector( 7 downto 0) := X"03";
-  constant nm1_pre_c    : std_logic_vector( 7 downto 0) := X"07";
-  constant nm1_sfd_c    : std_logic_vector( 7 downto 0) := X"03";
+  constant nm1_pre_c    : std_logic_vector( 7 downto 0) := X"07";   -- Original era 07
+  constant nm1_sfd_c    : std_logic_vector( 7 downto 0) := X"03";	-- Original era 03
   constant det_th_c     : std_logic_vector(15 downto 0) := X"0040";
   constant pll_kp_c     : std_logic_vector(15 downto 0) := X"A000";
   constant pll_ki_c     : std_logic_vector(15 downto 0) := X"9000";

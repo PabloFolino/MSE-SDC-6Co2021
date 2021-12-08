@@ -91,8 +91,8 @@ begin
         wait until tb_uart_tx_busy = '0';
       end if;
       wait for 16*2*SAMPLE_PERIOD;
-      tb_uart_tx_data   <= not(tb_uart_tx_data);
-      -- tb_uart_tx_data   <= std_logic_vector(unsigned(tb_uart_tx_data)+1);
+      -- tb_uart_tx_data   <= not(tb_uart_tx_data);    -- se modifico
+      -- tb_uart_tx_data   <= std_logic_vector(unsigned(tb_uart_tx_data)+1); -- se modifico
       wait for 1*SAMPLE_PERIOD;
       tb_uart_tx_en     <= '1';
       wait for 1*SAMPLE_PERIOD;
