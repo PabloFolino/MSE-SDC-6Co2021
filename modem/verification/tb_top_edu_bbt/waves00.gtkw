@@ -1,72 +1,206 @@
 [*]
-[*] GTKWave Analyzer v3.3.102 (w)1999-2019 BSI
-[*] Wed Oct  7 06:54:41 2020
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Dec  8 15:31:25 2021
 [*]
-[dumpfile] "/home/fzacchigna/fpga/proyects/vhdl_edu_bbt/verification/tb_top_edu_bbt/waves.fst"
-[dumpfile_mtime] "Wed Oct  7 06:44:44 2020"
-[dumpfile_size] 71899869
-[savefile] "/home/fzacchigna/fpga/proyects/vhdl_edu_bbt/verification/tb_top_edu_bbt/waves00.gtkw"
+[dumpfile] "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/verification/tb_top_edu_bbt/waves.fst"
+[dumpfile_mtime] "Tue Dec  7 19:33:31 2021"
+[dumpfile_size] 12714844
+[savefile] "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/verification/tb_top_edu_bbt/waves00.gtkw"
 [timestart] 0
-[size] 1920 1016
-[pos] -51 -51
-*-40.000000 960000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[size] 2619 868
+[pos] 2157 410
+*-36.788750 543700000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] u_dut.
+[treeopen] u_dut.u_modem.u_dem.
+[treeopen] u_dut.u_modem.u_dem.u_matched_filter.
+[treeopen] u_dut.u_tx_fifo.
+[treeopen] u_dut.u_uart.
 [sst_width] 514
-[signals_width] 206
+[signals_width] 286
 [sst_expanded] 1
-[sst_vpaned_height] 286
+[sst_vpaned_height] 296
+@c00200
+-Reset UART
+@200
+-Señales de control
 @28
 u_dut.clk_i
+tb_dut_arst_i
+u_dut.arst_i
+u_dut.u_uart.srst_i
 @200
--
+-Salida hacia TX_FIFO 
 @22
-u_dut.uart_os_data_s[7:0]
-@28
-u_dut.uart_os_dv_s
-u_dut.uart_os_rfd_s
+u_dut.u_uart.rx_os_data_o[7:0]
 @200
--
+-Entrada desde Rx_FIFO
 @22
-u_dut.fifo_data_count_s[7:0]
+u_dut.u_uart.tx_is_data_i[7:0]
+@1401200
+-Reset UART
+@c00200
+-Tx_FIFO
 @28
-u_dut.fifo_re_s
+u_dut.u_tx_fifo.srst_i
 @22
-u_dut.fifo_data_s[7:0]
+u_dut.u_tx_fifo.is_data_i[7:0]
+@28
+u_dut.u_tx_fifo.is_dv_i
+u_dut.u_tx_fifo.is_rfd_o
+@22
+u_dut.u_tx_fifo.os_data_o[7:0]
+@28
+u_dut.u_tx_fifo.os_dv_o
+u_dut.u_tx_fifo.os_rfd_i
+@22
+u_dut.u_tx_fifo.fifo_data_count_s[7:0]
+@1401200
+-Tx_FIFO
+@c00200
+-Modulador
+@200
+-Entrada
+@c00022
+u_dut.u_modem.u_mod.is_data_i[7:0]
+@28
+(0)u_dut.u_modem.u_mod.is_data_i[7:0]
+(1)u_dut.u_modem.u_mod.is_data_i[7:0]
+(2)u_dut.u_modem.u_mod.is_data_i[7:0]
+(3)u_dut.u_modem.u_mod.is_data_i[7:0]
+(4)u_dut.u_modem.u_mod.is_data_i[7:0]
+(5)u_dut.u_modem.u_mod.is_data_i[7:0]
+(6)u_dut.u_modem.u_mod.is_data_i[7:0]
+(7)u_dut.u_modem.u_mod.is_data_i[7:0]
+@1401200
+-group_end
+@28
+u_dut.u_modem.u_mod.is_dv_i
+u_dut.u_modem.u_mod.is_rfd_o
+@200
+-Salida
+@c00022
+[color] 3
+u_dut.u_modem.dac_os_data_o[9:0]
 @28
 [color] 3
-u_dut.fifo_empty_s
+(0)u_dut.u_modem.dac_os_data_o[9:0]
 [color] 3
-u_dut.fifo_full_s
-u_dut.fifo_re_s
-@200
--
-@22
-u_dut.fifo_os_data_s[7:0]
-@28
-u_dut.fifo_os_dv_s
-u_dut.fifo_os_rfd_s
-@200
--
-@28
-u_dut.modem_send_s
-@200
--
-@420
-u_dut.mod_os_data_s[9:0]
+(1)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(2)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(3)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(4)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(5)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(6)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(7)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(8)u_dut.u_modem.dac_os_data_o[9:0]
+[color] 3
+(9)u_dut.u_modem.dac_os_data_o[9:0]
+@1401200
+-group_end
 @8420
-u_dut.mod_os_data_s[9:0]
+[color] 3
+u_dut.u_modem.dac_os_data_o[9:0]
 @20000
 -
 -
 @28
-u_dut.mod_os_dv_s
-u_dut.mod_os_rfd_s
+u_dut.u_modem.dac_os_rfd_i
+u_dut.u_modem.dac_os_dv_o
+@200
+-Control
+@28
+u_dut.u_modem.send_i
+@22
+u_dut.u_modem.nm1_bytes_i[7:0]
+u_dut.u_modem.nm1_sfd_i[7:0]
+u_dut.u_modem.nm1_pre_i[7:0]
+@1401200
+-Modulador
+@c00200
+-Canal
+@200
+-Entrada
+@22
+[color] 3
+u_dut.u_channel.is_data_i[9:0]
+@8420
+[color] 3
+u_dut.u_channel.is_data_i[9:0]
+@20000
+-
+-
+@200
+-Ruido
+@22
+u_dut.u_channel.sigma_i[15:0]
+@200
+-Salida
+@24
+[color] 2
+u_dut.u_channel.os_data_o[9:0]
+@8420
+[color] 2
+u_dut.u_channel.os_data_o[9:0]
+@20000
+-
+-
+@200
+-
+@1401200
+-Canal
+@c00200
+-Demodulador
+@200
+-Entrada
+@22
+u_dut.u_modem.u_dem.is_data_i[9:0]
+@8420
+u_dut.u_modem.u_dem.is_data_i[9:0]
+@20000
+-
+-
+@200
+-PLL
+@8420
+u_dut.u_modem.u_dem.u_symb_sync.pf_s[9:0]
+@20000
+-
+-
+-
+-
+@200
+-Salida
+@22
+u_dut.u_modem.u_dem.os_data_o[7:0]
+@1401200
+-Demodulador
+@c00201
+-Rx_FIFO
+@200
+-Entrada
+@22
+u_dut.u_rx_fifo.is_data_i[7:0]
+@200
+-Salida
+@22
+u_dut.u_rx_fifo.os_data_o[7:0]
+@200
+-Control
+@22
+u_dut.u_rx_fifo.data_count_o[7:0]
+@28
+u_dut.u_rx_fifo.empty_o
+@1401201
+-Rx_FIFO
 @200
 -
 -
-@22
-u_tb_uart.rx_data[7:0]
-@28
-u_tb_uart.rx_busy
 [pattern_trace] 1
 [pattern_trace] 0

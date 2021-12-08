@@ -13,7 +13,7 @@ Familiarizarse con sistema completo, incluyendo:
 - UART
 
 
-## Diagramas en bloque
+## Descripción general
 
 A continuación se muestra el diagrama en bloques general:
 
@@ -31,8 +31,8 @@ como para recibir, sin paridad, con 8 bits de datos y un bit de stop.
 
 **Importante**: el bloque **u_send_logic**, lleva el control de la cantidad de datos(8 bits)que hay en el bloque **u_tx_fifo**.
 Si hay más de 4 datos habilita la señal **send_i** del bloque del **u_modem**, así comienza a transmitir. 
-este blque se da cuenta cuantos datos entran o salen de la fifo mediante dos línea de en trada y dos líneas de salida  llamada **dv** y**rfd**.
-Cuando ambas líneas está en uno, significa que entró o salió un dato.
+Este bloque se da cuenta cuantos datos entran o salen de la **fifo** mediante dos línea de en trada y dos líneas de salida  llamada **dv** y **rfd**.
+Cuando ambas líneas están en uno, significa que entró o salió un dato.
 
   
 ### El moden está compuesto por dos bloques(modulador y el demodulador):
@@ -40,10 +40,10 @@ Cuando ambas líneas está en uno, significa que entró o salió un dato.
 ![Modem](Imagenes/BD-bb_modem.jpg)
 
 Las señales que controlan al moden provinen del bloque de "**Registros de 
-configuración y GPIO**"
+configuración y GPIO**", en realidad este bloque esta compuestos por los bloques "**Constantes o VIO**" y "**u_send_logic**". 
 
-+ La transmisión es asindrónica con un preámbulo de sincronización(setado en **nm1_pre_i=15**) 
-y delimitador de trama(seteado para dos bits --> **nm1_sfd_i=1**) configurable.
++ La transmisión es asindrónica con un preámbulo de sincronización(setado en **nm1_pre_i=07**) 
+y delimitador de trama(seteado para cuatro bits --> **nm1_sfd_i=3**) configurable.
 
 + Para poder transmitir se tiene que tener una cierta cantidad de bytes, 
 esa cantidad se puede configurar, en la actualidad está configurado 
@@ -68,34 +68,49 @@ configurable.
 
 
 
-## Descripción
+## Descripción de cada bloque
 
-En este ejercicio se debe simular el sistema completo, para ello:
-1. Ya se cuenta con el test creado, se llama `tb_top_edu_bbt`.
-2. Se debe simular el sistema completo.
-3. Se debe entender el funcionamiento del sistema completo.
-4. Se debe realizar una explicación del funcionamiento de cada bloque.
-    Para ello ayudarse mediante capturas de las señales necesariar.
-5. Se debe realizar una explicación del funcionamiento del sistema completo.
-    Para ello ayudarse mediante capturas de las señales necesariar.
-6. Se debe incluir una explicación y capturas que muestren los problemas
-    que existen en la sincronización, al no estar en presencia de
-    cambios en las señales.
-    Por ejemplo, comparando como se degradan las señales de sincronización
-    en un caso con muchos cambios y en un caso con pocos.
-7. Todo el contenido se debe volcar en un informe breve.
+### **synchronous_reset y u_uart**
+
+En la siguiente simulación se muestra el funcionamiento del reset sincrónico(**srst_i**) a la entrada de la UART. Se obserba que trabaja con flanco ascendente de la señal de clock.
+Al resetarse pone la salida(**rx_os_data_o**) a a cero.
+![Reset sincrónico](Imagenes/Breset_sincronico.jpg)
+
+En la siguiente captura se muestran los datos que van hacia la **u_tx_fifo**, que terminan pasando por el canal y vienen de la **u_rx_fifo** de recgreso, se observa que luego de un tiempo los datos son los mismos(o sea no hay pérdida de información).
+![UART IN OUT](Imagenes/uart_in_out.jpg)
+
+### **u_tx_fifo**
+En la siguiente captura se muestra como se incrementa el contador(flechas naranjas) a  medida que llegan los datos.
+En el recuadro amarillo es en el instante que los datos salen hacia el modulador por **os_data_o** y el contador decrementa.
+![UART IN OUT](Imagenes/Tx_FIFO_1.jpg)
+A continuación se amplifica el recuadro amarillo para que se observe con más detalle:
+![UART IN OUT](Imagenes/Tx_FIFO_2.jpg)
+
+### **u_modem**
+
+#### Modulador
+
+La siguiente captura muestra por un lado las señales de control que configuran al modulador como **nm1_pre_i=7**, **nm1_sfd_i=3** y **nm1_bytes_i=3**.
+Se está diciendo que el preámbulo es de 8 bits que se verifica(línea roja de tiempo), el delimitador  de trama es de 4 bits(línea verde de tiempo), y la cantidad de bytes a transmiter es de 4(línea rosa de tiempo).
+Por otro lado se remarca con un círculo naranja el pulso de **send_i**, que da comiezoa la transmisión, y en los círculos azules son en los instamtes en donde se cargan los 4 bytes a transmitir.
+Por supuesto la señal en amarilo  **dac_os_data_o** es la señal que se transmite al canal.
+![Modulador](Imagenes/modulador1.jpg)
+
+#### Demodulador
+
+Se muestran la señal de entrada al demodulador que es la misma que la salida del modulador, pero con un riudo seudo Gaussiano.
+La variación de fase del PLL, se observa que al comienzo(en el preámbulo de la señal de entrada) varía mucho y luego permaneca aprox. contante.
+Y en la línea **os_data_o** es la salida digital que se envía al **u_rx_fifo**.
+![Demodulador](Imagenes/demodulador1.jpg)
+
+### **u_rx_fifo**
+
+Tiene un funcionamiento análogo al módulo  **u_tx_fifo**.
+![Rx_FIFO](Imagenes/Rx_FIFO_1.jpg)
 
 
-## Entrega
+### **u_channel**
+Simula el canal de comunicación y agrega un ruido semi Gaussiano.
+![Canal](Imagenes/canal1.jpg)
 
-La entrega se realiza directamente en la carpeta del repositorio.
-El informe puede ser directamente el archivo `README.md` de la carpeta
-de entrega o bien un archivo pdf.
-Si la entrega es mediante un archivo pdf, entonces se debe incluir un
-link al archivo en el `README.md` de la entrega.
-
-**No es necesario que el informe sea una maravilla literaria, ni que su
-presentación sea impecable, pero si debe ser claro y fácil de leer.**
-
-Los alumnos son libres de incluir cualquier otro tipo de información que deseen.
 
