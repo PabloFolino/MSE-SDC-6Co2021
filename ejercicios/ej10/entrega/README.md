@@ -110,7 +110,7 @@ Tiene un funcionamiento análogo al módulo  **u_tx_fifo**.
 
 
 ### **u_channel**
-Simula el canal de comunicación y agrega un ruido semi Gaussiano. En amarillo es la señal que viene del modulador y en naranja es la senal que  se inyecta al dmodulador.
+Simula el canal de comunicación y agrega un ruido semi Gaussiano. En amarillo es la señal que viene del modulador y en naranja es la señal que  se inyecta al dmodulador.
 ![Canal](Imagenes/canal1.jpg)
 
 
