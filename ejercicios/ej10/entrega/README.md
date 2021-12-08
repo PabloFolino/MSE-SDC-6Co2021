@@ -72,11 +72,11 @@ configurable.
 
 ### **synchronous_reset y u_uart**
 
-En la siguiente simulación se muestra el funcionamiento del reset sincrónico(**srst_i**) a la entrada de la UART. Se obserba que trabaja con flanco ascendente de la señal de clock.
+En la siguiente simulación se muestra el funcionamiento del reset sincrónico(**srst_i**) a la entrada de la UART. Se observa que trabaja con flanco ascendente de la señal de clock.
 Al resetarse pone la salida(**rx_os_data_o**) a a cero.
-![Reset sincrónico](Imagenes/Breset_sincronico.jpg)
+![Reset sincrónico](Imagenes/reset_sincronico.jpg)
 
-En la siguiente captura se muestran los datos que van hacia la **u_tx_fifo**, que terminan pasando por el canal y vienen de la **u_rx_fifo** de recgreso, se observa que luego de un tiempo los datos son los mismos(o sea no hay pérdida de información).
+En la siguiente captura se muestran los datos que van hacia la **u_tx_fifo**, que terminan pasando por el canal y vienen de la **u_rx_fifo** de regreso, se observa que luego de un tiempo los datos son los mismos(o sea no hay pérdida de información).
 ![UART IN OUT](Imagenes/uart_in_out.jpg)
 
 ### **u_tx_fifo**
@@ -92,13 +92,13 @@ A continuación se amplifica el recuadro amarillo para que se observe con más d
 
 La siguiente captura muestra por un lado las señales de control que configuran al modulador como **nm1_pre_i=7**, **nm1_sfd_i=3** y **nm1_bytes_i=3**.
 Se está diciendo que el preámbulo es de 8 bits que se verifica(línea roja de tiempo), el delimitador  de trama es de 4 bits(línea verde de tiempo), y la cantidad de bytes a transmiter es de 4(línea rosa de tiempo).
-Por otro lado se remarca con un círculo naranja el pulso de **send_i**, que da comiezoa la transmisión, y en los círculos azules son en los instamtes en donde se cargan los 4 bytes a transmitir.
-Por supuesto la señal en amarilo  **dac_os_data_o** es la señal que se transmite al canal.
+Por otro lado se remarca con un círculo naranja el pulso de **send_i**, que da comiezo a la transmisión, y en los círculos azules son en los instamtes en donde se cargan los 4 bytes a transmitir.
+Por supuesto la señal en amarilo  (**dac_os_data_o**) es la señal que se transmite al canal.
 ![Modulador](Imagenes/modulador1.jpg)
 
 #### Demodulador
 
-Se muestran la señal de entrada al demodulador que es la misma que la salida del modulador, pero con un riudo seudo Gaussiano.
+Se muestran la señal de entrada al demodulador que es la misma que la salida del modulador, pero con un ruido seudo Gaussiano.
 La variación de fase del PLL, se observa que al comienzo(en el preámbulo de la señal de entrada) varía mucho y luego permaneca aprox. contante.
 Y en la línea **os_data_o** es la salida digital que se envía al **u_rx_fifo**.
 ![Demodulador](Imagenes/demodulador1.jpg)
@@ -110,7 +110,7 @@ Tiene un funcionamiento análogo al módulo  **u_tx_fifo**.
 
 
 ### **u_channel**
-Simula el canal de comunicación y agrega un ruido semi Gaussiano.
+Simula el canal de comunicación y agrega un ruido semi Gaussiano. En amarillo es la señal que viene del modulador y en naranja es la senal que  se inyecta al dmodulador.
 ![Canal](Imagenes/canal1.jpg)
 
 
