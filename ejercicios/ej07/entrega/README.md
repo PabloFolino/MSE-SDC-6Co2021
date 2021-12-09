@@ -28,7 +28,7 @@ adquisición de los datos, y cómo se relaciona con la salida.
 ![](Imagenes/Entrada_Salida.jpg)
 
 En la siguiente figura se marca con líneas rojas los flancos en donde se muestran los datos de entrada y cómo se relacionan con la salida.   
-![](Imagenes/Captura_entradaa.jpg)
+![](Imagenes/Captura_entrada.jpg)
 
 
 
