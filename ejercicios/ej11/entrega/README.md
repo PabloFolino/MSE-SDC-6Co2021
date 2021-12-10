@@ -15,7 +15,7 @@ Familiarizarse con los IP de Xilinx:
 
 ### Diagramas en bloque
 
-![Diagrama en bloques del sistema](./images/BD-hw_top_edu_bbt.png)
+![Diagrama en bloques del sistema](Imagenes/hw_top_edu_bbt.jpg)
 
 
 ### Descripción
