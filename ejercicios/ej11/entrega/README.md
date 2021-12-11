@@ -17,7 +17,7 @@ Familiarizarse con los IP de Xilinx:
 
 Las respuestas se encuentran en el archivo  [Link](file:///Ejercicio11_paso_a_paso.pdf).
 
-Las respuestas se encuentran en el archivo  [Link](file:Ejercicio11_paso_a_paso.pdf).
+Las respuestas se encuentran en el archivo  [Link](file:./Ejercicio11_paso_a_paso.pdf).
 
 Las respuestas se encuentran en el archivo  <file:Ejercicio11_paso_a_paso.pdf>.
 
@@ -31,4 +31,4 @@ Las respuestas se encuentran en el archivo  <http://github.com/PabloFolino/MSE-S
 
 ./Ejercicio11_paso_a_paso.pdf
 
-<./Ejercicio11_paso_a_paso.pd>
+<file:./Ejercicio11_paso_a_paso.pd>
