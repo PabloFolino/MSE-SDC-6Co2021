@@ -13,33 +13,9 @@ Familiarizarse con los IP de Xilinx:
 - Virtual Input/Output (VIO)
 
 
-### Diagramas en bloque
+### Respuestas
 
-![Diagrama en bloques del sistema](Imagenes/hw_top_edu_bbt.jpg)
-
-
-### Descripción
-
-**ToDo:** Completar
-
-- Proyecto Vivado
-- Agregar MCMM
-- Simular
-- Implementar
-- Agregar ILA
-- Agregar VIO
+Las respuestas se encuentran en el archivo <Ejercicio11_paso_a _paso.pdf>
 
 
-### Entrega
-
-La entrega se realiza directamente en la carpeta del repositorio.
-El informe puede ser directamente el archivo `README.md` de la carpeta
-de entrega o bien un archivo pdf.
-Si la entrega es mediante un archivo pdf, entonces se debe incluir un
-link al archivo en el `README.md` de la entrega.
-
-**No es necesario que el informe sea una maravilla literaria, ni que su
-presentación sea impecable, pero si debe ser claro y fácil de leer.**
-
-Los alumnos son libres de incluir cualquier otro tipo de información que deseen.
 
