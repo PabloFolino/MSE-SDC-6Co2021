@@ -15,7 +15,8 @@ Familiarizarse con los IP de Xilinx:
 
 ### Respuestas
 
-Las respuestas se encuentran en el archivo  ![Link](file:///Ejercicio11_paso_a_paso.pdf).
+Las respuestas se encuentran en el archivo  [Link](file:///Ejercicio11_paso_a_paso.pdf).
+Las respuestas se encuentran en el archivo  [Link](file:Ejercicio11_paso_a_paso.pdf).
 
 Las respuestas se encuentran en el archivo  <file:///Ejercicio11_paso_a_paso.pdf>.
 
