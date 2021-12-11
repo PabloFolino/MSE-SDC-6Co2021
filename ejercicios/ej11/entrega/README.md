@@ -15,20 +15,20 @@ Familiarizarse con los IP de Xilinx:
 
 ### Respuestas
 
-Las respuestas se encuentran en el archivo  [Link](file:///Ejercicio11_paso_a_paso.pdf).
+Las respuestas se encuentran en el archivo  [Link](file:///ejercicio11_paso_a_paso.pdf).
 
-Las respuestas se encuentran en el archivo  [Link](file:./Ejercicio11_paso_a_paso.pdf).
+Las respuestas se encuentran en el archivo  [Link](file:./ejercicio11_paso_a_paso.pdf).
 
-Las respuestas se encuentran en el archivo  <file:Ejercicio11_paso_a_paso.pdf>.
+Las respuestas se encuentran en el archivo  <file:ejercicio11_paso_a_paso.pdf>.
 
-Las respuestas se encuentran en el archivo  <file:github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/Ejercicio11_paso_a_paso.pdf>.
+Las respuestas se encuentran en el archivo  <file:github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/ejercicio11_paso_a_paso.pdf>.
 
-Las respuestas se encuentran en el archivo  ![Link](file:Ejercicio11_paso_a_paso.pdf).
+Las respuestas se encuentran en el archivo  ![Link](file:ejercicio11_paso_a_paso.pdf).
 
-Las respuestas se encuentran en el archivo  <http://Ejercicio11_paso_a_paso.pdf>.
+Las respuestas se encuentran en el archivo  <http://ejercicio11_paso_a_paso.pdf>.
 
-Las respuestas se encuentran en el archivo  <http://github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/Ejercicio11_paso_a_paso.pdf>.
+Las respuestas se encuentran en el archivo  <http://github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/ejercicio11_paso_a_paso.pdf>.
 
-./Ejercicio11_paso_a_paso.pdf
+./ejercicio11_paso_a_paso.pdf
 
-<file:./Ejercicio11_paso_a_paso.pd>
+<file:./ejercicio11_paso_a_paso.pd>
