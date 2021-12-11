@@ -19,4 +19,4 @@ Las respuestas se encuentran en el archivo  ![Link](Ejercicio11_paso_a _paso.pdf
 
 Las respuestas se encuentran en el archivo  <https://Ejercicio11_paso_a _paso.pdf>.
 
-Las respuestas se encuentran en el archivo  <https://https://github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/Ejercicio11_paso_a _paso.pdf>.
+Las respuestas se encuentran en el archivo  <https://github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/Ejercicio11_paso_a _paso.pdf>.
