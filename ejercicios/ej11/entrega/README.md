@@ -28,3 +28,7 @@ Las respuestas se encuentran en el archivo  ![Link](file:Ejercicio11_paso_a_paso
 Las respuestas se encuentran en el archivo  <http://Ejercicio11_paso_a_paso.pdf>.
 
 Las respuestas se encuentran en el archivo  <http://github.com/PabloFolino/MSE-SDC-6Co2021/tree/main/ejercicios/ej11/entrega/Ejercicio11_paso_a_paso.pdf>.
+
+./Ejercicio11_paso_a_paso.pdf
+
+<./Ejercicio11_paso_a_paso.pd>
