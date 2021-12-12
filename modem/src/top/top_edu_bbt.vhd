@@ -81,7 +81,8 @@ architecture rtl of top_edu_bbt is
   constant pll_ki_c     : std_logic_vector(15 downto 0) := X"9000";
   -- Channel config
   constant sigma_c      : std_logic_vector(15 downto 0) := X"0040"; -- QU16.12
-  -- ---------------------------------------------------------------------------
+  
+   -- ---------------------------------------------------------------------------
 
 
   -- ---------------------------------------------------------------------------
@@ -99,10 +100,24 @@ architecture rtl of top_edu_bbt is
       probe3 : IN STD_LOGIC_VECTOR(0 DOWNTO 0)
   );
   END COMPONENT  ;
+  
+   -- VIO Signals
+  signal nm1_bytes_sig  : std_logic_vector( 7 downto 0) := nm1_bytes_c;
+  signal nm1_pre_sig    : std_logic_vector( 7 downto 0) := nm1_pre_c;   -- Original era 07 
+  signal sigma_sig      : std_logic_vector(15 downto 0) := sigma_c;     -- QU16.12
+  -- VIO component
+  COMPONENT vio_0
+  PORT (
+        CLK : IN STD_LOGIC;
+        probe_out0 : OUT STD_LOGIC_VECTOR(7 DOWNTO 0) ;
+        probe_out1 : OUT STD_LOGIC_VECTOR(7 DOWNTO 0) ;
+        probe_out2 : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)  
+  );
+  END COMPONENT  ;
   -- ---------------------------------------------------------------------------
 
-begin
 
+begin
 
   -- ---------------------------------------------------------------------------
   -- ILA
@@ -116,7 +131,17 @@ begin
       probe3(0) => tx_s
   );
   
+   -- ---------------------------------------------------------------------------
+  -- VIO
   -- ---------------------------------------------------------------------------
+  u_vio: vio_0
+  PORT MAP (
+      clk => clk_i,
+      probe_out0  => nm1_bytes_sig,
+      probe_out1  => nm1_pre_sig,
+      probe_out2  => sigma_sig
+  );
+   -- ---------------------------------------------------------------------------
  tx_o <= tx_s;
 
   -- ---------------------------------------------------------------------------
@@ -223,7 +248,7 @@ begin
         if modem_send_s = '1' then
           modem_send_s <= '0';
         else
-          if unsigned(pipe_data_counter_s) > unsigned(nm1_bytes_c) and modem_tx_rdy_s = '1' then
+          if unsigned(pipe_data_counter_s) > unsigned(nm1_bytes_c) and modem_tx_rdy_s = '1' then  -- nm1_bytes_sig
             modem_send_s <= '1';
           end if;
         end if;
@@ -266,7 +291,7 @@ begin
     adc_is_rfd_o  => chan_os_rfd_s,
     -- Config
     nm1_bytes_i   => nm1_bytes_c,
-    nm1_pre_i     => nm1_pre_c,
+    nm1_pre_i     => nm1_pre_c,       --nm1_pre_sig
     nm1_sfd_i     => nm1_sfd_c,
     det_th_i      => det_th_c,
     pll_kp_i      => pll_kp_c,
@@ -326,7 +351,7 @@ begin
     os_dv_o       => chan_os_dv_s,
     os_rfd_i      => chan_os_rfd_s,
     -- Control
-    sigma_i       => sigma_c
+    sigma_i       => sigma_c          -- sigma_sig
   );
   -- ---------------------------------------------------------------------------
 
