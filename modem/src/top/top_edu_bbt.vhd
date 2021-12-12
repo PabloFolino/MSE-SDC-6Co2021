@@ -290,8 +290,8 @@ begin
     adc_is_dv_i   => chan_os_dv_s,
     adc_is_rfd_o  => chan_os_rfd_s,
     -- Config
-    nm1_bytes_i   => nm1_bytes_c,
-    nm1_pre_i     => nm1_pre_c,       --nm1_pre_sig
+    nm1_bytes_i   => nm1_bytes_c,       --nm1_bytes_sig
+    nm1_pre_i     => nm1_pre_sig,       --nm1_pre_sig
     nm1_sfd_i     => nm1_sfd_c,
     det_th_i      => det_th_c,
     pll_kp_i      => pll_kp_c,
@@ -351,7 +351,7 @@ begin
     os_dv_o       => chan_os_dv_s,
     os_rfd_i      => chan_os_rfd_s,
     -- Control
-    sigma_i       => sigma_c          -- sigma_sig
+    sigma_i       => sigma_sig          -- sigma_sig
   );
   -- ---------------------------------------------------------------------------
 
