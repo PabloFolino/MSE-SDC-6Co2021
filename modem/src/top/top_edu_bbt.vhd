@@ -248,7 +248,7 @@ begin
         if modem_send_s = '1' then
           modem_send_s <= '0';
         else
-          if unsigned(pipe_data_counter_s) > unsigned(nm1_bytes_c) and modem_tx_rdy_s = '1' then  -- nm1_bytes_sig
+          if unsigned(pipe_data_counter_s) > unsigned(nm1_bytes_sig) and modem_tx_rdy_s = '1' then  -- nm1_bytes_sig
             modem_send_s <= '1';
           end if;
         end if;
@@ -290,7 +290,7 @@ begin
     adc_is_dv_i   => chan_os_dv_s,
     adc_is_rfd_o  => chan_os_rfd_s,
     -- Config
-    nm1_bytes_i   => nm1_bytes_c,       --nm1_bytes_sig
+    nm1_bytes_i   => nm1_bytes_sig,     --nm1_bytes_sig
     nm1_pre_i     => nm1_pre_sig,       --nm1_pre_sig
     nm1_sfd_i     => nm1_sfd_c,
     det_th_i      => det_th_c,

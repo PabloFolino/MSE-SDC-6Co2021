@@ -1,0 +1,5 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl/verilog"incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl"
+xpm_memory.sv,systemverilog,xpm,../../../../2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl/verilog"incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl"
+xpm_VCOMP.vhd,vhdl,xpm,../../../../2021.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl/verilog"incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl"
+vio_0.vhd,vhdl,xil_defaultlib,../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/sim/vio_0.vhd,incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl/verilog"incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

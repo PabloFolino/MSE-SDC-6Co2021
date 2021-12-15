@@ -1,0 +1,822 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Dec 15 13:41:09 2021
+# Process ID: 8720
+# Current directory: /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1
+# Command line: vivado -log hw_top_edu_bbt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hw_top_edu_bbt.tcl
+# Log file: /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/hw_top_edu_bbt.vds
+# Journal file: /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source hw_top_edu_bbt.tcl -notrace
+Command: synth_design -top hw_top_edu_bbt -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8760
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2364.078 ; gain = 0.000 ; free physical = 124 ; free virtual = 4314
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hw_top_edu_bbt' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd:24]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/.Xil/Vivado-8720-pablo-MAX-G0101/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'u_clk_mmcm' of component 'clk_wiz_0' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/.Xil/Vivado-8720-pablo-MAX-G0101/realtime/clk_wiz_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'top_edu_bbt' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:10' bound to instance 'u_top' of component 'top_edu_bbt' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'top_edu_bbt' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:20]
+INFO: [Synth 8-3491] module 'ila_0' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/.Xil/Vivado-8720-pablo-MAX-G0101/realtime/ila_0_stub.vhdl:5' bound to instance 'u_ila0' of component 'ila_0' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/.Xil/Vivado-8720-pablo-MAX-G0101/realtime/ila_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'vio_0' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/.Xil/Vivado-8720-pablo-MAX-G0101/realtime/vio_0_stub.vhdl:5' bound to instance 'u_vio' of component 'vio_0' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'vio_0' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/.Xil/Vivado-8720-pablo-MAX-G0101/realtime/vio_0_stub.vhdl:15]
+	Parameter CLK_FREQ bound to: 16000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter OS_RATE bound to: 16 - type: integer 
+	Parameter D_WIDTH bound to: 8 - type: integer 
+	Parameter PARITY bound to: 0 - type: integer 
+	Parameter PARITY_EO bound to: 1'b0 
+INFO: [Synth 8-3491] module 'sif_uart' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd:8' bound to instance 'u_uart' of component 'sif_uart' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'sif_uart' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd:38]
+	Parameter CLK_FREQ bound to: 16000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter OS_RATE bound to: 16 - type: integer 
+	Parameter D_WIDTH bound to: 8 - type: integer 
+	Parameter PARITY bound to: 0 - type: integer 
+	Parameter PARITY_EO bound to: 1'b0 
+	Parameter clk_freq bound to: 16000000 - type: integer 
+	Parameter baud_rate bound to: 115200 - type: integer 
+	Parameter os_rate bound to: 16 - type: integer 
+	Parameter d_width bound to: 8 - type: integer 
+	Parameter parity bound to: 0 - type: integer 
+	Parameter parity_eo bound to: 1'b0 
+INFO: [Synth 8-3491] module 'uart' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd:26' bound to instance 'u_uart' of component 'uart' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'uart' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd:47]
+	Parameter clk_freq bound to: 16000000 - type: integer 
+	Parameter baud_rate bound to: 115200 - type: integer 
+	Parameter os_rate bound to: 16 - type: integer 
+	Parameter d_width bound to: 8 - type: integer 
+	Parameter parity bound to: 0 - type: integer 
+	Parameter parity_eo bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'uart' (1#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'sif_uart' (2#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd:38]
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+INFO: [Synth 8-3491] module 'sif_fifo' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd:9' bound to instance 'u_tx_fifo' of component 'sif_fifo' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:198]
+INFO: [Synth 8-638] synthesizing module 'sif_fifo' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd:34]
+	Parameter RESET_ACTIVE_LEVEL bound to: 1'b1 
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+	Parameter SYNC_READ bound to: 1 - type: bool 
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+INFO: [Synth 8-3491] module 'simple_fifo' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd:8' bound to instance 'u_rx_fifo' of component 'simple_fifo' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'simple_fifo' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd:29]
+	Parameter RESET_ACTIVE_LEVEL bound to: 1'b1 
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+	Parameter SYNC_READ bound to: 1 - type: bool 
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+	Parameter SYNC_READ bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'dual_port_ram' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd:4' bound to instance 'dpr' of component 'dual_port_ram' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'dual_port_ram' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd:22]
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+	Parameter SYNC_READ bound to: 1 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'dual_port_ram' (3#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'simple_fifo' (4#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'sif_fifo' (5#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd:34]
+INFO: [Synth 8-3491] module 'bb_modem' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd:8' bound to instance 'u_modem' of component 'bb_modem' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:269]
+INFO: [Synth 8-638] synthesizing module 'bb_modem' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd:47]
+INFO: [Synth 8-3491] module 'bb_modulator' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:8' bound to instance 'u_mod' of component 'bb_modulator' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'bb_modulator' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:33]
+	Parameter N_PULSE bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'mod_control_unit' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd:5' bound to instance 'u_cu' of component 'mod_control_unit' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'mod_control_unit' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd:31]
+	Parameter N_PULSE bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mod_control_unit' (6#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd:31]
+INFO: [Synth 8-3491] module 'bask_mapper' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd:7' bound to instance 'u_mapper' of component 'bask_mapper' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'bask_mapper' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'bask_mapper' (7#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd:27]
+	Parameter N_ZEROS bound to: 15 - type: integer 
+	Parameter CLOG2_N_ZEROS bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'zero_append' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd:8' bound to instance 'u_zero_append' of component 'zero_append' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'zero_append' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd:32]
+	Parameter N_ZEROS bound to: 15 - type: integer 
+	Parameter CLOG2_N_ZEROS bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'zero_append' (8#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd:32]
+INFO: [Synth 8-3491] module 'pulse_shaping_fir' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd:7' bound to instance 'u_fir' of component 'pulse_shaping_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'pulse_shaping_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd:26]
+INFO: [Synth 8-3491] module 'hdlcoder_pulse_shaping_fir' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd:42' bound to instance 'u_fir' of component 'hdlcoder_pulse_shaping_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'hdlcoder_pulse_shaping_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'hdlcoder_pulse_shaping_fir' (9#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'pulse_shaping_fir' (10#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'bb_modulator' (11#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd:33]
+INFO: [Synth 8-3491] module 'bb_demodulator' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:7' bound to instance 'u_dem' of component 'bb_demodulator' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'bb_demodulator' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:35]
+INFO: [Synth 8-3491] module 'matched_filter_fir' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd:7' bound to instance 'u_matched_filter' of component 'matched_filter_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'matched_filter_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd:26]
+INFO: [Synth 8-3491] module 'hdlcoder_matched_filter_fir' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd:42' bound to instance 'u_fir' of component 'hdlcoder_matched_filter_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'hdlcoder_matched_filter_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'hdlcoder_matched_filter_fir' (12#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'matched_filter_fir' (13#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd:26]
+	Parameter sr_depth bound to: 5 - type: integer 
+	Parameter sr_width bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'shift_reg' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd:5' bound to instance 'u_shift_reg' of component 'shift_reg' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'shift_reg' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd:19]
+	Parameter sr_depth bound to: 5 - type: integer 
+	Parameter sr_width bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shift_reg' (14#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd:19]
+INFO: [Synth 8-3491] module 'symb_sync' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd:8' bound to instance 'u_symb_sync' of component 'symb_sync' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'symb_sync' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd:30]
+INFO: [Synth 8-3491] module 'pre_filter' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd:7' bound to instance 'u_pre_filter' of component 'pre_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'pre_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd:26]
+INFO: [Synth 8-3491] module 'hdlcoder_pre_filter' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd:48' bound to instance 'u_filter' of component 'hdlcoder_pre_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'hdlcoder_pre_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'hdlcoder_pre_filter' (15#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'pre_filter' (16#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd:26]
+INFO: [Synth 8-3491] module 'bandpass_filter' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd:7' bound to instance 'u_bandpass_filter' of component 'bandpass_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'bandpass_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd:26]
+INFO: [Synth 8-3491] module 'hdlcoder_bandpass_filter' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd:48' bound to instance 'u_filter' of component 'hdlcoder_bandpass_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'hdlcoder_bandpass_filter' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'hdlcoder_bandpass_filter' (17#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'bandpass_filter' (18#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd:26]
+	Parameter WORD_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'pll' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd:8' bound to instance 'u_pll' of component 'pll' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'pll' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd:43]
+	Parameter WORD_WIDTH bound to: 16 - type: integer 
+	Parameter WW bound to: 16 - type: integer 
+	Parameter STAGES bound to: 16 - type: integer 
+	Parameter FRAC_BITS bound to: 15 - type: integer 
+	Parameter MAGNITUDE bound to: 1.000000 - type: double 
+	Parameter RESET_ACTIVE_LEVEL bound to: 1'b1 
+INFO: [Synth 8-3491] module 'nco' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd:7' bound to instance 'u_dds' of component 'nco' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'nco' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd:29]
+	Parameter WW bound to: 16 - type: integer 
+	Parameter STAGES bound to: 16 - type: integer 
+	Parameter FRAC_BITS bound to: 15 - type: integer 
+	Parameter MAGNITUDE bound to: 1.000000 - type: double 
+	Parameter RESET_ACTIVE_LEVEL bound to: 1'b1 
+	Parameter WW bound to: 16 - type: integer 
+	Parameter STAGES bound to: 16 - type: integer 
+	Parameter RESET_ACTIVE_LEVEL bound to: 1'b1 
+INFO: [Synth 8-3491] module 'cordic_pipelined' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd:6' bound to instance 'c' of component 'cordic_pipelined' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'cordic_pipelined' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd:28]
+	Parameter WW bound to: 16 - type: integer 
+	Parameter STAGES bound to: 16 - type: integer 
+	Parameter RESET_ACTIVE_LEVEL bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'cordic_pipelined' (19#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'nco' (20#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'pll' (21#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'symb_sync' (22#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd:30]
+INFO: [Synth 8-3491] module 'dem_control_unit' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd:5' bound to instance 'u_dem_cu' of component 'dem_control_unit' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:278]
+INFO: [Synth 8-638] synthesizing module 'dem_control_unit' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'dem_control_unit' (23#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'bb_demodulator' (24#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'bb_modem' (25#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd:47]
+	Parameter MEM_SIZE bound to: 256 - type: integer 
+INFO: [Synth 8-3491] module 'sif_fifo' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd:9' bound to instance 'u_rx_fifo' of component 'sif_fifo' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:311]
+INFO: [Synth 8-3491] module 'bb_channel' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd:8' bound to instance 'u_channel' of component 'bb_channel' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:338]
+INFO: [Synth 8-638] synthesizing module 'bb_channel' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd:29]
+INFO: [Synth 8-3491] module 'bb_channel_fir' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd:7' bound to instance 'u_fir' of component 'bb_channel_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'bb_channel_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd:26]
+INFO: [Synth 8-3491] module 'hdlcoder_channel_fir' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd:42' bound to instance 'u_fir' of component 'hdlcoder_channel_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'hdlcoder_channel_fir' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'hdlcoder_channel_fir' (26#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'bb_channel_fir' (27#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd:26]
+INFO: [Synth 8-3491] module 'random_gaussian_approx' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:5' bound to instance 'u_noise' of component 'random_gaussian_approx' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'random_gaussian_approx' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:14]
+	Parameter SEED bound to: 31'b0101001100101101110111100010101 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'random_uniform' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:5' bound to instance 'unif1' of component 'random_uniform' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'random_uniform' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b0101001100101101110111100010101 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'random_uniform' (28#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b1110000011000110000111110001111 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'random_uniform' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:5' bound to instance 'unif2' of component 'random_uniform' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'random_uniform__parameterized1' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b1110000011000110000111110001111 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'random_uniform__parameterized1' (28#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b1011001110000101110110100011000 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'random_uniform' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:5' bound to instance 'unif3' of component 'random_uniform' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'random_uniform__parameterized3' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b1011001110000101110110100011000 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'random_uniform__parameterized3' (28#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b0000000001010010001100101000101 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'random_uniform' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:5' bound to instance 'unif4' of component 'random_uniform' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'random_uniform__parameterized5' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+	Parameter SEED bound to: 31'b0000000001010010001100101000101 
+	Parameter OUT_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'random_uniform__parameterized5' (28#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd:14]
+INFO: [Synth 8-3491] module 'adder_signed' declared at '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd:5' bound to instance 'adder1' of component 'adder_signed' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'adder_signed' [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'adder_signed' (29#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'random_gaussian_approx' (30#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'bb_channel' (31#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd:29]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_modem'. This will prevent further optimization [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:269]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_channel'. This will prevent further optimization [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:338]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_rx_fifo'. This will prevent further optimization [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:311]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_uart'. This will prevent further optimization [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:164]
+INFO: [Synth 8-256] done synthesizing module 'top_edu_bbt' (32#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'hw_top_edu_bbt' (33#1) [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 2419.953 ; gain = 55.875 ; free physical = 614 ; free virtual = 4264
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 2437.766 ; gain = 73.688 ; free physical = 609 ; free virtual = 4271
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 2437.766 ; gain = 73.688 ; free physical = 609 ; free virtual = 4271
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2437.766 ; gain = 0.000 ; free physical = 590 ; free virtual = 4260
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_3/vio_0/vio_0_in_context.xdc] for cell 'u_top/u_vio'
+Finished Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_3/vio_0/vio_0_in_context.xdc] for cell 'u_top/u_vio'
+Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clk_mmcm'
+Finished Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clk_mmcm'
+Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'u_top/u_ila0'
+Finished Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'u_top/u_ila0'
+Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/arty_A7-35_ejercicio11.xdc]
+Finished Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/arty_A7-35_ejercicio11.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/arty_A7-35_ejercicio11.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/hw_top_edu_bbt_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/hw_top_edu_bbt_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2610.484 ; gain = 0.000 ; free physical = 464 ; free virtual = 4154
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2610.484 ; gain = 0.000 ; free physical = 461 ; free virtual = 4155
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 543 ; free virtual = 4247
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 543 ; free virtual = 4247
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_i. (constraint file  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_i. (constraint file  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for u_top/u_vio. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_clk_mmcm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_top/u_ila0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 543 ; free virtual = 4247
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_s_reg' in module 'mod_control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'state_s_reg' in module 'dem_control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'random_gaussian_approx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_init |                            10000 |                              000
+                  s_wait |                            00010 |                              001
+                   s_pre |                            01000 |                              010
+                   s_sfd |                            00100 |                              011
+                  s_data |                            00001 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_s_reg' using encoding 'one-hot' in module 'mod_control_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_init |                              110 |                              000
+                  s_wait |                              001 |                              001
+                s_pre_s0 |                              100 |                              010
+                s_pre_s1 |                              101 |                              011
+                s_sfd_s0 |                              011 |                              100
+                s_sfd_s1 |                              010 |                              101
+                  s_data |                              000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_s_reg' using encoding 'sequential' in module 'dem_control_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              001 |                               00
+                      s1 |                              010 |                               01
+                      s2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'random_gaussian_approx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 503 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   41 Bit       Adders := 2     
+	  78 Input   35 Bit       Adders := 1     
+	  79 Input   35 Bit       Adders := 1     
+	   2 Input   35 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input   31 Bit       Adders := 34    
+	   2 Input   30 Bit       Adders := 2     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 50    
+	   3 Input   16 Bit       Adders := 32    
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 6     
+	   3 Input    8 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 4     
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               31 Bit    Registers := 4     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 65    
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 3     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 91    
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 15    
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 86    
+	                1 Bit    Registers := 35    
++---RAMs : 
+	               2K Bit	(256 X 8 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 14    
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   31 Bit        Muxes := 32    
+	   2 Input   16 Bit        Muxes := 66    
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   3 Input   12 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 23    
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 7     
+	   2 Input    3 Bit        Muxes := 9     
+	   4 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 1     
+	  24 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 8     
+	   5 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 54    
+	   5 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP mul_temp_73, operation Mode is: (A:0x262)*B.
+DSP Report: operator mul_temp_73 is absorbed into DSP mul_temp_73.
+DSP Report: Generating DSP mul_temp_72, operation Mode is: (A:0x2d6)*B.
+DSP Report: operator mul_temp_72 is absorbed into DSP mul_temp_72.
+DSP Report: Generating DSP mul_temp_71, operation Mode is: (A:0x317)*B.
+DSP Report: operator mul_temp_71 is absorbed into DSP mul_temp_71.
+DSP Report: Generating DSP mul_temp_70, operation Mode is: (A:0x315)*B.
+DSP Report: operator mul_temp_70 is absorbed into DSP mul_temp_70.
+DSP Report: Generating DSP mul_temp_69, operation Mode is: (A:0x2c4)*B.
+DSP Report: operator mul_temp_69 is absorbed into DSP mul_temp_69.
+DSP Report: Generating DSP mul_temp_68, operation Mode is: (A:0x21e)*B.
+DSP Report: operator mul_temp_68 is absorbed into DSP mul_temp_68.
+DSP Report: Generating DSP mul_temp_64, operation Mode is: (A:0x3ffffc6f)*B.
+DSP Report: operator mul_temp_64 is absorbed into DSP mul_temp_64.
+DSP Report: Generating DSP mul_temp_63, operation Mode is: (A:0x3ffffa8a)*B.
+DSP Report: operator mul_temp_63 is absorbed into DSP mul_temp_63.
+DSP Report: Generating DSP mul_temp_62, operation Mode is: (A:0x3ffff8a9)*B.
+DSP Report: operator mul_temp_62 is absorbed into DSP mul_temp_62.
+DSP Report: Generating DSP mul_temp_61, operation Mode is: (A:0x3ffff6f1)*B.
+DSP Report: operator mul_temp_61 is absorbed into DSP mul_temp_61.
+DSP Report: Generating DSP mul_temp_60, operation Mode is: (A:0x3ffff587)*B.
+DSP Report: operator mul_temp_60 is absorbed into DSP mul_temp_60.
+DSP Report: Generating DSP mul_temp_59, operation Mode is: (A:0x3ffff495)*B.
+DSP Report: operator mul_temp_59 is absorbed into DSP mul_temp_59.
+DSP Report: Generating DSP mul_temp_58, operation Mode is: (A:0x3ffff442)*B.
+DSP Report: operator mul_temp_58 is absorbed into DSP mul_temp_58.
+DSP Report: Generating DSP mul_temp_57, operation Mode is: (A:0x3ffff4b1)*B.
+DSP Report: operator mul_temp_57 is absorbed into DSP mul_temp_57.
+DSP Report: Generating DSP mul_temp_56, operation Mode is: (A:0x3ffff600)*B.
+DSP Report: operator mul_temp_56 is absorbed into DSP mul_temp_56.
+DSP Report: Generating DSP mul_temp_55, operation Mode is: (A:0x3ffff847)*B.
+DSP Report: operator mul_temp_55 is absorbed into DSP mul_temp_55.
+DSP Report: Generating DSP mul_temp_54, operation Mode is: (A:0x3ffffb92)*B.
+DSP Report: operator mul_temp_54 is absorbed into DSP mul_temp_54.
+DSP Report: Generating DSP mul_temp_52, operation Mode is: (A:0x533)*B.
+DSP Report: operator mul_temp_52 is absorbed into DSP mul_temp_52.
+DSP Report: Generating DSP mul_temp_51, operation Mode is: (A:0xb6b)*B.
+DSP Report: operator mul_temp_51 is absorbed into DSP mul_temp_51.
+DSP Report: Generating DSP mul_temp_50, operation Mode is: (A:0x1268)*B.
+DSP Report: operator mul_temp_50 is absorbed into DSP mul_temp_50.
+DSP Report: Generating DSP mul_temp_49, operation Mode is: (A:0x1a00)*B.
+DSP Report: operator mul_temp_49 is absorbed into DSP mul_temp_49.
+DSP Report: Generating DSP mul_temp_48, operation Mode is: (A:0x21fc)*B.
+DSP Report: operator mul_temp_48 is absorbed into DSP mul_temp_48.
+DSP Report: Generating DSP mul_temp_47, operation Mode is: (A:0x2a1e)*B.
+DSP Report: operator mul_temp_47 is absorbed into DSP mul_temp_47.
+DSP Report: Generating DSP mul_temp_46, operation Mode is: (A:0x3225)*B.
+DSP Report: operator mul_temp_46 is absorbed into DSP mul_temp_46.
+DSP Report: Generating DSP mul_temp_45, operation Mode is: (A:0x39cb)*B.
+DSP Report: operator mul_temp_45 is absorbed into DSP mul_temp_45.
+DSP Report: Generating DSP mul_temp_44, operation Mode is: (A:0x40ce)*B.
+DSP Report: operator mul_temp_44 is absorbed into DSP mul_temp_44.
+DSP Report: Generating DSP mul_temp_43, operation Mode is: (A:0x46ee)*B.
+DSP Report: operator mul_temp_43 is absorbed into DSP mul_temp_43.
+DSP Report: Generating DSP mul_temp_42, operation Mode is: (A:0x4bf2)*B.
+DSP Report: operator mul_temp_42 is absorbed into DSP mul_temp_42.
+DSP Report: Generating DSP mul_temp_41, operation Mode is: (A:0x4fab)*B.
+DSP Report: operator mul_temp_41 is absorbed into DSP mul_temp_41.
+DSP Report: Generating DSP mul_temp_40, operation Mode is: (A:0x51f5)*B.
+DSP Report: operator mul_temp_40 is absorbed into DSP mul_temp_40.
+DSP Report: Generating DSP mul_temp_39, operation Mode is: (A:0x52bb)*B.
+DSP Report: operator mul_temp_39 is absorbed into DSP mul_temp_39.
+DSP Report: Generating DSP mul_temp_38, operation Mode is: (A:0x51f5)*B.
+DSP Report: operator mul_temp_38 is absorbed into DSP mul_temp_38.
+DSP Report: Generating DSP mul_temp_37, operation Mode is: (A:0x4fab)*B.
+DSP Report: operator mul_temp_37 is absorbed into DSP mul_temp_37.
+DSP Report: Generating DSP mul_temp_36, operation Mode is: (A:0x4bf2)*B.
+DSP Report: operator mul_temp_36 is absorbed into DSP mul_temp_36.
+DSP Report: Generating DSP mul_temp_35, operation Mode is: (A:0x46ee)*B.
+DSP Report: operator mul_temp_35 is absorbed into DSP mul_temp_35.
+DSP Report: Generating DSP mul_temp_34, operation Mode is: (A:0x40ce)*B.
+DSP Report: operator mul_temp_34 is absorbed into DSP mul_temp_34.
+DSP Report: Generating DSP mul_temp_33, operation Mode is: (A:0x39cb)*B.
+DSP Report: operator mul_temp_33 is absorbed into DSP mul_temp_33.
+DSP Report: Generating DSP mul_temp_32, operation Mode is: (A:0x3225)*B.
+DSP Report: operator mul_temp_32 is absorbed into DSP mul_temp_32.
+DSP Report: Generating DSP mul_temp_31, operation Mode is: (A:0x2a1e)*B.
+DSP Report: operator mul_temp_31 is absorbed into DSP mul_temp_31.
+DSP Report: Generating DSP mul_temp_30, operation Mode is: (A:0x21fc)*B.
+DSP Report: operator mul_temp_30 is absorbed into DSP mul_temp_30.
+DSP Report: Generating DSP mul_temp_29, operation Mode is: (A:0x1a00)*B.
+DSP Report: operator mul_temp_29 is absorbed into DSP mul_temp_29.
+DSP Report: Generating DSP mul_temp_28, operation Mode is: (A:0x1268)*B.
+DSP Report: operator mul_temp_28 is absorbed into DSP mul_temp_28.
+DSP Report: Generating DSP mul_temp_27, operation Mode is: (A:0xb6b)*B.
+DSP Report: operator mul_temp_27 is absorbed into DSP mul_temp_27.
+DSP Report: Generating DSP mul_temp_26, operation Mode is: (A:0x533)*B.
+DSP Report: operator mul_temp_26 is absorbed into DSP mul_temp_26.
+DSP Report: Generating DSP mul_temp_24, operation Mode is: (A:0x3ffffb92)*B.
+DSP Report: operator mul_temp_24 is absorbed into DSP mul_temp_24.
+DSP Report: Generating DSP mul_temp_23, operation Mode is: (A:0x3ffff847)*B.
+DSP Report: operator mul_temp_23 is absorbed into DSP mul_temp_23.
+DSP Report: Generating DSP mul_temp_22, operation Mode is: (A:0x3ffff600)*B.
+DSP Report: operator mul_temp_22 is absorbed into DSP mul_temp_22.
+DSP Report: Generating DSP mul_temp_21, operation Mode is: (A:0x3ffff4b1)*B.
+DSP Report: operator mul_temp_21 is absorbed into DSP mul_temp_21.
+DSP Report: Generating DSP mul_temp_20, operation Mode is: (A:0x3ffff442)*B.
+DSP Report: operator mul_temp_20 is absorbed into DSP mul_temp_20.
+DSP Report: Generating DSP mul_temp_19, operation Mode is: (A:0x3ffff495)*B.
+DSP Report: operator mul_temp_19 is absorbed into DSP mul_temp_19.
+DSP Report: Generating DSP mul_temp_18, operation Mode is: (A:0x3ffff587)*B.
+DSP Report: operator mul_temp_18 is absorbed into DSP mul_temp_18.
+DSP Report: Generating DSP mul_temp_17, operation Mode is: (A:0x3ffff6f1)*B.
+DSP Report: operator mul_temp_17 is absorbed into DSP mul_temp_17.
+DSP Report: Generating DSP mul_temp_16, operation Mode is: (A:0x3ffff8a9)*B.
+DSP Report: operator mul_temp_16 is absorbed into DSP mul_temp_16.
+DSP Report: Generating DSP mul_temp_15, operation Mode is: (A:0x3ffffa8a)*B.
+DSP Report: operator mul_temp_15 is absorbed into DSP mul_temp_15.
+DSP Report: Generating DSP mul_temp_14, operation Mode is: (A:0x3ffffc6f)*B.
+DSP Report: operator mul_temp_14 is absorbed into DSP mul_temp_14.
+DSP Report: Generating DSP mul_temp_10, operation Mode is: (A:0x21e)*B.
+DSP Report: operator mul_temp_10 is absorbed into DSP mul_temp_10.
+DSP Report: Generating DSP mul_temp_9, operation Mode is: (A:0x2c4)*B.
+DSP Report: operator mul_temp_9 is absorbed into DSP mul_temp_9.
+DSP Report: Generating DSP mul_temp_8, operation Mode is: (A:0x315)*B.
+DSP Report: operator mul_temp_8 is absorbed into DSP mul_temp_8.
+DSP Report: Generating DSP mul_temp_7, operation Mode is: (A:0x317)*B.
+DSP Report: operator mul_temp_7 is absorbed into DSP mul_temp_7.
+DSP Report: Generating DSP mul_temp_6, operation Mode is: (A:0x2d6)*B.
+DSP Report: operator mul_temp_6 is absorbed into DSP mul_temp_6.
+DSP Report: Generating DSP mul_temp_5, operation Mode is: (A:0x262)*B.
+DSP Report: operator mul_temp_5 is absorbed into DSP mul_temp_5.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pre_filter/u_filter/b1mul1, operation Mode is: A*(B:0x4ee3).
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/b1mul1 is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/b1mul1.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pre_filter/u_filter/add_temp, operation Mode is: PCIN+A*(B:0x3b11d).
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/add_temp is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/add_temp.
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/b3mul1 is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/add_temp.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp, operation Mode is: C-A*(B:0x384db).
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp.
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/a2mul1 is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp_1, operation Mode is: PCIN-A*(B:0x3d89).
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp_1 is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp_1.
+DSP Report: operator u_dem/u_symb_sync/u_pre_filter/u_filter/a3mul1 is absorbed into DSP u_dem/u_symb_sync/u_pre_filter/u_filter/sub_temp_1.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/b1mul1, operation Mode is: A*(B:0x5008).
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/b1mul1 is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/b1mul1.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/add_temp, operation Mode is: PCIN+A*(B:0x3aff8).
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/add_temp is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/add_temp.
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/b3mul1 is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/add_temp.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp, operation Mode is: C-A*(B:0x38a52).
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp.
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/a2mul1 is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp_1, operation Mode is: PCIN-A*(B:0x3f60).
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp_1 is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp_1.
+DSP Report: operator u_dem/u_symb_sync/u_bandpass_filter/u_filter/a3mul1 is absorbed into DSP u_dem/u_symb_sync/u_bandpass_filter/u_filter/sub_temp_1.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pll/phase_est_s0, operation Mode is: A*B.
+DSP Report: operator u_dem/u_symb_sync/u_pll/phase_est_s0 is absorbed into DSP u_dem/u_symb_sync/u_pll/phase_est_s0.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pll/int_err_s1, operation Mode is: A2*B2.
+DSP Report: register u_dem/u_symb_sync/u_pll/phase_est_s_reg is absorbed into DSP u_dem/u_symb_sync/u_pll/int_err_s1.
+DSP Report: register u_dem/u_symb_sync/u_pll/int_err_s1 is absorbed into DSP u_dem/u_symb_sync/u_pll/int_err_s1.
+DSP Report: operator u_dem/u_symb_sync/u_pll/int_err_s1 is absorbed into DSP u_dem/u_symb_sync/u_pll/int_err_s1.
+DSP Report: Generating DSP u_dem/u_symb_sync/u_pll/phase_err_s1, operation Mode is: A2*B2.
+DSP Report: register u_dem/u_symb_sync/u_pll/phase_est_s_reg is absorbed into DSP u_dem/u_symb_sync/u_pll/phase_err_s1.
+DSP Report: register u_dem/u_symb_sync/u_pll/phase_err_s1 is absorbed into DSP u_dem/u_symb_sync/u_pll/phase_err_s1.
+DSP Report: operator u_dem/u_symb_sync/u_pll/phase_err_s1 is absorbed into DSP u_dem/u_symb_sync/u_pll/phase_err_s1.
+DSP Report: Generating DSP mult_s, operation Mode is: A*B2.
+DSP Report: register u_noise/random_reg is absorbed into DSP mult_s.
+DSP Report: operator mult_s is absorbed into DSP mult_s.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:48 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 436 ; free virtual = 4183
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++----------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name     | RTL Object                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|u_top           | u_tx_fifo/u_rx_fifo/dpr/ram_reg | 256 x 8(READ_FIRST)    | W |   | 256 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
+|u_top/u_rx_fifo | u_rx_fifo/dpr/ram_reg           | 256 x 8(READ_FIRST)    | W |   | 256 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++----------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping Report (see note below)
++----------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                 | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hdlcoder_matched_filter_fir | (A:0x262)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x2d6)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x317)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x315)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x2c4)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x21e)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffffc6f)*B   | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffffa8a)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff8a9)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff6f1)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff587)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff495)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff442)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff4b1)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff600)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff847)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffffb92)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x533)*B        | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0xb6b)*B        | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x1268)*B       | 10     | 14     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x1a00)*B       | 10     | 14     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x21fc)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x2a1e)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3225)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x39cb)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x40ce)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x46ee)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x4bf2)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x4fab)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x51f5)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x52bb)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x51f5)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x4fab)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x4bf2)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x46ee)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x40ce)*B       | 10     | 16     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x39cb)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3225)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x2a1e)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x21fc)*B       | 10     | 15     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x1a00)*B       | 10     | 14     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x1268)*B       | 10     | 14     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0xb6b)*B        | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x533)*B        | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffffb92)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff847)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff600)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff4b1)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff442)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff495)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff587)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff6f1)*B   | 10     | 13     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffff8a9)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffffa8a)*B   | 10     | 12     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x3ffffc6f)*B   | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x21e)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x2c4)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x315)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x317)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x2d6)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_matched_filter_fir | (A:0x262)*B        | 10     | 11     | -      | -      | 21     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_pre_filter         | A*(B:0x4ee3)       | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_pre_filter         | PCIN+A*(B:0x3b11d) | 16     | 16     | -      | -      | 40     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_pre_filter         | C-A*(B:0x384db)    | 16     | 16     | 30     | -      | 30     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hdlcoder_pre_filter         | PCIN-A*(B:0x3d89)  | 16     | 15     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_bandpass_filter    | A*(B:0x5008)       | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_bandpass_filter    | PCIN+A*(B:0x3aff8) | 16     | 16     | -      | -      | 40     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdlcoder_bandpass_filter    | C-A*(B:0x38a52)    | 16     | 16     | 30     | -      | 30     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hdlcoder_bandpass_filter    | PCIN-A*(B:0x3f60)  | 16     | 15     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pll                         | A*B                | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pll                         | A2*B2              | 17     | 16     | -      | -      | 33     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|pll                         | A2*B2              | 17     | 16     | -      | -      | 33     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|bb_channel                  | A*B2               | 16     | 12     | -      | -      | 28     | 0    | 1    | -    | -    | -     | 0    | 0    | 
++----------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:56 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 290 ; free virtual = 4035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:01:00 . Memory (MB): peak = 2610.484 ; gain = 246.406 ; free physical = 264 ; free virtual = 4009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++----------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name     | RTL Object                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|u_top           | u_tx_fifo/u_rx_fifo/dpr/ram_reg | 256 x 8(READ_FIRST)    | W |   | 256 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
+|u_top/u_rx_fifo | u_rx_fifo/dpr/ram_reg           | 256 x 8(READ_FIRST)    | W |   | 256 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++----------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance u_top/u_rx_fifo/u_rx_fifo/dpr/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_top/u_tx_fifo/u_rx_fifo/dpr/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:55 ; elapsed = 00:01:05 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:11 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:01 ; elapsed = 00:01:12 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:01 ; elapsed = 00:01:12 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|bb_modem    | u_dem/u_shift_reg/sr_reg[3][9] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|bb_channel  | u_noise/unif2/rand_reg[23]     | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|bb_channel  | u_noise/unif2/rand_reg[12]     | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|bb_channel  | u_noise/unif3/rand_reg[18]     | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|bb_channel  | u_noise/unif4/rand_reg[22]     | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_0         |         1|
+|2     |vio_0         |         1|
+|3     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |clk_wiz_0_bbox |     1|
+|2     |ila_0_bbox     |     1|
+|3     |vio_0_bbox     |     1|
+|4     |CARRY4         |  1083|
+|5     |DSP48E1        |    73|
+|8     |LUT1           |   857|
+|9     |LUT2           |   953|
+|10    |LUT3           |  1490|
+|11    |LUT4           |  1365|
+|12    |LUT5           |   648|
+|13    |LUT6           |   626|
+|14    |RAMB18E1       |     2|
+|15    |SRL16E         |     5|
+|16    |FDCE           |  1974|
+|17    |FDPE           |    59|
+|18    |FDRE           |   347|
+|19    |FDSE           |     8|
+|20    |IBUF           |     2|
+|21    |OBUF           |     5|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:01:12 . Memory (MB): peak = 2649.508 ; gain = 285.430 ; free physical = 259 ; free virtual = 4004
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:09 . Memory (MB): peak = 2649.508 ; gain = 112.711 ; free physical = 316 ; free virtual = 4061
+Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:12 . Memory (MB): peak = 2649.516 ; gain = 285.430 ; free physical = 316 ; free virtual = 4061
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2649.516 ; gain = 0.000 ; free physical = 387 ; free virtual = 4149
+INFO: [Netlist 29-17] Analyzing 1158 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2681.523 ; gain = 0.000 ; free physical = 328 ; free virtual = 4092
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 7632c906
+INFO: [Common 17-83] Releasing license: Synthesis
+141 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:14 ; elapsed = 00:01:18 . Memory (MB): peak = 2681.523 ; gain = 317.570 ; free physical = 510 ; free virtual = 4275
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.runs/synth_1/hw_top_edu_bbt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hw_top_edu_bbt_utilization_synth.rpt -pb hw_top_edu_bbt_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 15 13:42:50 2021...
