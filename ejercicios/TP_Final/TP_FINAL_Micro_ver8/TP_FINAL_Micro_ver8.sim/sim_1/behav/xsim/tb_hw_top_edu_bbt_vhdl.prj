@@ -1,0 +1,40 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/pkg_edu_bbt.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd" \
+"../../../../../../Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/tb_hw_top_edu_bbt.vhd" \
+
+# Do not sort compile order
+nosort

@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="55" Path="/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.xpr">
+<Project Version="7" Minor="55" Path="/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/ejercicios/ej11/entrega/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="afbc0458fe324f9c918ab6faf9e9b526"/>
@@ -49,7 +49,7 @@
     <Option Name="SimulatorGccVersionActiveHdl" Val="6.2.0"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
     <Option Name="BoardPart" Val="digilentinc.com:arty-a7-35:part0:1.0"/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../../.Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../../../../../../.Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -100,211 +100,211 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/channel/prng/adder_signed.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/bandpass_filter/bandpass_filter.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/modulator/bask_mapper.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/channel/bb_channel.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/channel/filter/bb_channel_fir.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/bb_demodulator.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/bb_modem.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/modulator/bb_modulator.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/cordic_pipelined.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/dem_control_unit.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/lib/dual_port_ram.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/channel/filter/hdlcoder_channel_fir.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/pkg_edu_bbt.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/pkg_edu_bbt.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/matched_filter/matched_filter_fir.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/modulator/mod_control_unit.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/nco.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/pll.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/pre_filter/pre_filter.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/channel/prng/random_gaussian_approx.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/channel/prng/random_uniform.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/lib/shift_reg.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/lib/fifo/sif_fifo.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/lib/uart/sif_uart.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/lib/fifo/simple_fifo.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/demodulator/symb_sync.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/top/top_edu_bbt.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/lib/uart/uart.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/modulator/zero_append.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd">
+      <File Path="$PPRDIR/../../../../modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_uart_loopback.vhd">
+      <File Path="$PPRDIR/../../../../modem/src/top/top_uart_loopback.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -331,20 +331,20 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/tb_hw_top_edu_bbt.vhd">
+      <File Path="$PPRDIR/../../../../modem/hw/artyz7-10/edu_bbt/tb_hw_top_edu_bbt.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/verification/tb_top_edu_bbt/tb_top_edu_bbt.vhd">
+      <File Path="$PPRDIR/../../../../modem/verification/tb_top_edu_bbt/tb_top_edu_bbt.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../MSE-SDC_ejercicio11/tb_hw_top_edu_bbt_behav.wcfg">
+      <File Path="$PPRDIR/../../../../../../workspace/MSE-SDC_ejercicio11/tb_hw_top_edu_bbt_behav.wcfg">
         <FileInfo>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -362,7 +362,7 @@
         <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
         <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="XSimWcfgFile" Val="$PPRDIR/../MSE-SDC_ejercicio11/tb_hw_top_edu_bbt_behav.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../../../../workspace/MSE-SDC_ejercicio11/tb_hw_top_edu_bbt_behav.wcfg"/>
       </Config>
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
@@ -423,7 +423,7 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="15">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35ticsg324-1L" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../MSE-SDC_ejercicio11/MSE-SDC_ejercicio11.srcs/utils_1/imports/synth_1">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35ticsg324-1L" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC_ejercicio11/MSE-SDC_ejercicio11.srcs/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
@@ -433,7 +433,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="clk_wiz_0" Part="xc7a35ticsg324-1L" ConstrsSet="clk_wiz_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/clk_wiz_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/clk_wiz_0_synth_1">
+    <Run Id="clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="clk_wiz_0" Part="xc7a35ticsg324-1L" ConstrsSet="clk_wiz_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/clk_wiz_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.srcs/utils_1/imports/clk_wiz_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
@@ -443,7 +443,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="ila_0_synth_1" Type="Ft3:Synth" SrcSet="ila_0" Part="xc7a35ticsg324-1L" ConstrsSet="ila_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ila_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ila_0_synth_1">
+    <Run Id="ila_0_synth_1" Type="Ft3:Synth" SrcSet="ila_0" Part="xc7a35ticsg324-1L" ConstrsSet="ila_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ila_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.srcs/utils_1/imports/ila_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
@@ -453,7 +453,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../MSE-SDC_ejercicio11/MSE-SDC_ejercicio11.srcs/utils_1/imports/impl_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC_ejercicio11/MSE-SDC_ejercicio11.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
@@ -471,7 +471,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1_copy_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../MSE-SDC_ejercicio11/MSE-SDC_ejercicio11.srcs/utils_1/imports/impl_1">
+    <Run Id="impl_1_copy_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC_ejercicio11/MSE-SDC_ejercicio11.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
@@ -595,7 +595,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="clk_wiz_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="clk_wiz_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/clk_wiz_0_impl_1">
+    <Run Id="clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="clk_wiz_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="clk_wiz_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.srcs/utils_1/imports/clk_wiz_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
@@ -612,7 +612,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="ila_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="ila_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ila_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ila_0_impl_1">
+    <Run Id="ila_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="ila_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ila_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../../workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.srcs/utils_1/imports/ila_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>

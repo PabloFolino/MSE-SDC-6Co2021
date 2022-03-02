@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1639586465">
-  <File Type="VDS-TIMINGSUMMARY" Name="hw_top_edu_bbt_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="hw_top_edu_bbt.dcp"/>
   <File Type="RDS-UTIL-PB" Name="hw_top_edu_bbt_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="hw_top_edu_bbt_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="hw_top_edu_bbt_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="hw_top_edu_bbt.vds"/>
-  <File Type="REPORTS-TCL" Name="hw_top_edu_bbt_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="hw_top_edu_bbt_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="hw_top_edu_bbt.tcl"/>
+  <File Type="RDS-UTIL" Name="hw_top_edu_bbt_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="hw_top_edu_bbt_reports.tcl"/>
+  <File Type="RDS-RDS" Name="hw_top_edu_bbt.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/vio_0_3/vio_0.xci">
@@ -18,211 +15,211 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/prng/adder_signed.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/bandpass_filter/bandpass_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/bask_mapper.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/bb_channel.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/filter/bb_channel_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/bb_demodulator.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/bb_modem.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/bb_modulator.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/cordic_pipelined.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/dem_control_unit.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/dual_port_ram.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/filter/hdlcoder_channel_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/pkg_edu_bbt.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/pkg_edu_bbt.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/matched_filter/matched_filter_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/mod_control_unit.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/nco.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/pll.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pre_filter/pre_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/prng/random_gaussian_approx.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/prng/random_uniform.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/shift_reg.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/fifo/sif_fifo.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/uart/sif_uart.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/fifo/simple_fifo.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/symb_sync.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/top/top_edu_bbt.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/uart/uart.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/zero_append.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd">
+    <File Path="$PPRDIR/../../../../modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_uart_loopback.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/top/top_uart_loopback.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -257,6 +254,6 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
 </GenRun>

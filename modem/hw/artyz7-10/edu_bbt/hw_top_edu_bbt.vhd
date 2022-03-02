@@ -16,12 +16,30 @@ entity hw_top_edu_bbt is
     arst_i  : in  std_logic;                    --ascynchronous reset
     rx_i    : in  std_logic;                    --receive pin
     tx_o    : out std_logic;
-    led_o   : out std_logic_vector(3 downto 0)
+    led_o   : out std_logic_vector(3 downto 0);
+    push_buttons_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    dip_switches_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    rgb_led_tri_io : inout STD_LOGIC_VECTOR ( 11 downto 0 );
+    usb_uart_rxd : in STD_LOGIC;
+    usb_uart_txd : out STD_LOGIC
   );
 end entity hw_top_edu_bbt;
 
 -- architecture
 architecture rtl of hw_top_edu_bbt is
+
+ COMPONENT system_wrapper 
+  port (
+    dip_switches_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    led_4bits_tri_io : inout STD_LOGIC_VECTOR ( 3 downto 0 );
+    push_buttons_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    reset : in STD_LOGIC;
+    rgb_led_tri_io : inout STD_LOGIC_VECTOR ( 11 downto 0 );
+    sys_clock : in STD_LOGIC;
+    usb_uart_rxd : in STD_LOGIC;
+    usb_uart_txd : out STD_LOGIC
+  );
+ END COMPONENT;
  
   COMPONENT ila_0
   PORT (
@@ -49,19 +67,21 @@ architecture rtl of hw_top_edu_bbt is
   signal rx_s : std_logic_vector(0 downto 0);
   signal tx_s : std_logic_vector(0 downto 0);
 
-  signal counter_s : std_logic_vector(26 downto 0);
-
+  --signal counter_s : std_logic_vector(26 downto 0);
+  signal led_o_s : std_logic_vector(3 downto 0);
 begin
 
-  u_blinky : process(clk_s,arst_i)
-  begin
-    if arst_i = '1' then
-      counter_s <= (others => '0');
-    elsif rising_edge(clk_s) then
-      counter_s <= std_logic_vector(unsigned(counter_s)+1);
-    end if;
-  end process;
-  led_o <= counter_s(26 downto 23);
+--  u_blinky : process(clk_s,arst_i)
+--  begin
+ 
+--    if arst_i = '1' then
+--      counter_s <= (others => '0');
+--    elsif rising_edge(clk_s) then
+--      counter_s <= std_logic_vector(unsigned(counter_s)+1);
+--    end if;
+--  end process;
+ 
+--  led_o <= counter_s(26 downto 23);
 
   u_clk_mmcm : clk_wiz_0
   port map (
@@ -84,6 +104,21 @@ begin
     tx_o   => tx_o
     -- rx_i   => rx_s(0),
     -- tx_o   => tx_s(0)
+  );
+  
+  
+  led_o <= led_o_s;
+  
+  u_system_wrapper: system_wrapper
+  PORT MAP(
+    dip_switches_4bits_tri_i => dip_switches_4bits_tri_i,
+    led_4bits_tri_io => led_o_s,
+    push_buttons_4bits_tri_i => push_buttons_4bits_tri_i,
+    reset => arst_i,
+    rgb_led_tri_io => rgb_led_tri_io,
+    sys_clock => clk_i ,
+    usb_uart_rxd=> usb_uart_rxd,
+    usb_uart_txd => usb_uart_txd
   );
 
   -- rx_s(0) <= rx_i;

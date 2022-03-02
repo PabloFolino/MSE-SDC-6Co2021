@@ -1,0 +1,21 @@
+19:45:59 **** Incremental Build of configuration Debug for project micro_2bis ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/micro_2/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: micro_2bis.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/micro_2/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "micro_2bis.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: micro_2bis.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size micro_2bis.elf  |tee "micro_2bis.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7368	    308	   3116	  10792	   2a28	micro_2bis.elf
+Finished building: micro_2bis.elf.size
+ 
+
+19:45:59 Build Finished (took 222ms)
+

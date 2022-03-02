@@ -1,0 +1,444 @@
+16:58:07 INFO  : Platform repository initialization has completed.
+16:58:07 INFO  : Launching XSCT server: xsct -n  -interactive /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/temp_xsdb_launch_script.tcl
+16:58:08 INFO  : Registering command handlers for Vitis TCF services
+16:58:12 INFO  : XSCT server has started successfully.
+16:58:12 INFO  : Successfully done setting XSCT server connection channel  
+16:58:12 INFO  : plnx-install-location is set to ''
+16:58:13 INFO  : Successfully done setting workspace for the tool. 
+16:58:13 INFO  : Successfully done query RDI_DATADIR 
+16:58:44 INFO  : Result from executing command 'getProjects': hw_top_edu_bbt
+16:58:44 INFO  : Result from executing command 'getPlatforms': 
+16:58:44 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:58:44 INFO  : Platform 'hw_top_edu_bbt' is added to custom repositories.
+16:58:46 INFO  : Platform 'hw_top_edu_bbt' is added to custom repositories.
+16:59:21 INFO  : Result from executing command 'getProjects': hw_top_edu_bbt
+16:59:21 INFO  : Result from executing command 'getPlatforms': hw_top_edu_bbt|/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw_top_edu_bbt.xpfm
+16:59:24 INFO  : Checking for BSP changes to sync application flags for project 'main'...
+16:59:44 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+16:59:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:59:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+16:59:45 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+16:59:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:59:53 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+16:59:53 INFO  : 'jtag frequency' command is executed.
+16:59:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+16:59:55 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+16:59:55 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:55 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+16:59:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:59:55 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:55 INFO  : System reset is completed.
+16:59:58 INFO  : 'after 3000' command is executed.
+16:59:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:58 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+16:59:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+16:59:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:59:58 INFO  : 'con' command is executed.
+16:59:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:59:58 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+17:14:14 INFO  : Hardware specification for platform project 'hw_top_edu_bbt' is updated.
+17:14:25 INFO  : Result from executing command 'getProjects': hw_top_edu_bbt
+17:14:25 INFO  : Result from executing command 'getPlatforms': hw_top_edu_bbt|/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw_top_edu_bbt.xpfm
+17:14:29 INFO  : Checking for BSP changes to sync application flags for project 'main'...
+17:14:29 INFO  : The hardware specification used by project 'main' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+17:14:29 INFO  : The file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/hw_top_edu_bbt.bit' stored in project is removed.
+17:14:29 INFO  : The file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/hw_top_edu_bbt.mmi' stored in project is removed.
+17:14:29 INFO  : The file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' stored in project is removed.
+17:14:29 INFO  : The updated bitstream files are copied from platform to folder '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream' in project 'main'.
+17:14:46 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+17:14:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+17:14:48 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+17:14:52 INFO  : Disconnected from the channel tcfchan#2.
+17:14:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:52 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+17:14:52 INFO  : 'jtag frequency' command is executed.
+17:14:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+17:14:53 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+17:14:53 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:53 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+17:14:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:14:53 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:53 INFO  : System reset is completed.
+17:14:56 INFO  : 'after 3000' command is executed.
+17:14:56 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:57 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+17:14:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+17:14:57 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:57 INFO  : 'con' command is executed.
+17:14:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:14:57 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+17:42:01 INFO  : Hardware specification for platform project 'hw_top_edu_bbt' is updated.
+17:42:16 INFO  : Result from executing command 'getProjects': hw_top_edu_bbt
+17:42:16 INFO  : Result from executing command 'getPlatforms': hw_top_edu_bbt|/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw_top_edu_bbt.xpfm
+17:42:19 INFO  : Checking for BSP changes to sync application flags for project 'main'...
+17:42:20 INFO  : The hardware specification used by project 'main' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+17:42:20 INFO  : The file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/hw_top_edu_bbt.bit' stored in project is removed.
+17:42:20 INFO  : The file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/hw_top_edu_bbt.mmi' stored in project is removed.
+17:42:20 INFO  : The file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' stored in project is removed.
+17:42:20 INFO  : The updated bitstream files are copied from platform to folder '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream' in project 'main'.
+17:42:36 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+17:42:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+17:42:37 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+17:42:48 INFO  : Disconnected from the channel tcfchan#4.
+17:42:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:48 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+17:42:48 INFO  : 'jtag frequency' command is executed.
+17:42:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+17:42:49 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+17:42:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:49 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+17:42:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:42:49 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:49 INFO  : System reset is completed.
+17:42:52 INFO  : 'after 3000' command is executed.
+17:42:52 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:52 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+17:42:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+17:42:52 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:52 INFO  : 'con' command is executed.
+17:42:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:42:52 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+18:24:11 INFO  : Checking for BSP changes to sync application flags for project 'main'...
+18:24:50 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+18:24:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:24:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+18:24:53 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+18:25:00 INFO  : Disconnected from the channel tcfchan#6.
+18:25:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:25:00 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+18:25:00 INFO  : 'jtag frequency' command is executed.
+18:25:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+18:25:03 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+18:25:03 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:03 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+18:25:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:25:03 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:03 INFO  : System reset is completed.
+18:25:06 INFO  : 'after 3000' command is executed.
+18:25:06 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:06 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+18:25:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+18:25:06 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:06 INFO  : 'con' command is executed.
+18:25:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:25:06 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+20:18:51 INFO  : Checking for BSP changes to sync application flags for project 'main'...
+20:19:23 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+20:19:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:19:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+20:19:26 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+20:19:36 INFO  : Disconnected from the channel tcfchan#7.
+20:19:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:19:36 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+20:19:36 INFO  : 'jtag frequency' command is executed.
+20:19:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+20:19:39 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+20:19:39 INFO  : Context for processor 'microblaze_0' is selected.
+20:19:39 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+20:19:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:19:39 INFO  : Context for processor 'microblaze_0' is selected.
+20:19:39 INFO  : System reset is completed.
+20:19:42 INFO  : 'after 3000' command is executed.
+20:19:42 INFO  : Context for processor 'microblaze_0' is selected.
+20:19:42 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+20:19:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+20:19:42 INFO  : Context for processor 'microblaze_0' is selected.
+20:19:42 INFO  : 'con' command is executed.
+20:19:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:19:42 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+07:39:54 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+07:39:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:39:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+07:39:57 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+07:40:55 INFO  : Disconnected from the channel tcfchan#8.
+07:40:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:40:55 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+07:40:55 INFO  : 'jtag frequency' command is executed.
+07:40:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+07:40:58 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+07:40:58 INFO  : Context for processor 'microblaze_0' is selected.
+07:40:58 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+07:40:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+07:40:58 INFO  : Context for processor 'microblaze_0' is selected.
+07:40:58 INFO  : System reset is completed.
+07:41:01 INFO  : 'after 3000' command is executed.
+07:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+07:41:01 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+07:41:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+07:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+07:41:01 INFO  : 'con' command is executed.
+07:41:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+07:41:01 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+16:41:07 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+16:41:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:41:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+16:41:11 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+16:41:18 INFO  : Disconnected from the channel tcfchan#9.
+16:41:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:41:18 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+16:41:18 INFO  : 'jtag frequency' command is executed.
+16:41:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+16:41:21 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+16:41:21 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:21 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+16:41:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:41:21 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:21 INFO  : System reset is completed.
+16:41:24 INFO  : 'after 3000' command is executed.
+16:41:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:24 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+16:41:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+16:41:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:24 INFO  : 'con' command is executed.
+16:41:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:41:24 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+11:21:29 INFO  : Bit file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit' is generated.
+11:21:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:21:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+11:21:33 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+11:21:36 INFO  : Disconnected from the channel tcfchan#10.
+11:21:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:21:37 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+11:21:37 INFO  : 'jtag frequency' command is executed.
+11:21:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+11:21:40 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+11:21:40 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:40 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+11:21:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:21:40 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:40 INFO  : System reset is completed.
+11:21:43 INFO  : 'after 3000' command is executed.
+11:21:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:43 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+11:21:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+11:21:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:43 INFO  : 'con' command is executed.
+11:21:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:21:43 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+12:26:29 INFO  : Disconnected from the channel tcfchan#11.
+19:04:08 INFO  : Launching XSCT server: xsct -n  -interactive /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/temp_xsdb_launch_script.tcl
+19:04:12 INFO  : Platform repository initialization has completed.
+19:04:12 INFO  : Registering command handlers for Vitis TCF services
+19:04:14 INFO  : XSCT server has started successfully.
+19:04:14 INFO  : plnx-install-location is set to ''
+19:04:14 INFO  : Successfully done setting XSCT server connection channel  
+19:04:15 INFO  : Successfully done setting workspace for the tool. 
+19:04:15 INFO  : Successfully done query RDI_DATADIR 
+19:05:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:05:20 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+19:05:20 INFO  : 'jtag frequency' command is executed.
+19:05:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+19:05:21 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+19:05:21 INFO  : Context for processor 'microblaze_0' is selected.
+19:05:22 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+19:05:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:05:22 INFO  : Context for processor 'microblaze_0' is selected.
+19:05:22 INFO  : System reset is completed.
+19:05:25 INFO  : 'after 3000' command is executed.
+19:05:25 INFO  : Context for processor 'microblaze_0' is selected.
+19:05:25 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+19:05:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+19:05:25 INFO  : Context for processor 'microblaze_0' is selected.
+19:05:25 INFO  : 'con' command is executed.
+19:05:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:05:25 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+19:13:26 INFO  : Disconnected from the channel tcfchan#1.
+23:28:28 INFO  : Launching XSCT server: xsct -n  -interactive /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/temp_xsdb_launch_script.tcl
+23:28:31 INFO  : Platform repository initialization has completed.
+23:28:31 INFO  : Registering command handlers for Vitis TCF services
+23:28:33 INFO  : XSCT server has started successfully.
+23:28:34 INFO  : plnx-install-location is set to ''
+23:28:34 INFO  : Successfully done setting XSCT server connection channel  
+23:28:34 INFO  : Successfully done query RDI_DATADIR 
+23:28:34 INFO  : Successfully done setting workspace for the tool. 
+23:28:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:28:37 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B0C3C4A' is selected.
+23:28:37 INFO  : 'jtag frequency' command is executed.
+23:28:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}' command is executed.
+23:28:39 INFO  : Device configured successfully with "/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit"
+23:28:39 INFO  : Context for processor 'microblaze_0' is selected.
+23:28:39 INFO  : Hardware design and registers information is loaded from '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa'.
+23:28:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:28:39 INFO  : Context for processor 'microblaze_0' is selected.
+23:28:39 INFO  : System reset is completed.
+23:28:42 INFO  : 'after 3000' command is executed.
+23:28:42 INFO  : Context for processor 'microblaze_0' is selected.
+23:28:42 INFO  : The application '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf' is downloaded to processor 'microblaze_0'.
+23:28:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B0C3C4A" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B0C3C4A-0362d093-0"}
+fpga -file /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main/Debug/main.elf
+----------------End of Script----------------
+
+23:28:42 INFO  : Context for processor 'microblaze_0' is selected.
+23:28:42 INFO  : 'con' command is executed.
+23:28:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:28:42 INFO  : Launch script is exported to file '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/main_system/_ide/scripts/systemdebugger_main_system_standalone.tcl'
+23:28:47 INFO  : Disconnected from the channel tcfchan#1.

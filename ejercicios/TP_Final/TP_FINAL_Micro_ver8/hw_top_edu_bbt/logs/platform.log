@@ -1,0 +1,1697 @@
+TRACE::2022-02-22.16:58:43::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:43::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:43::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:43::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:43::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:43::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened new HwDB with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt"
+		}]
+}
+TRACE::2022-02-22.16:58:44::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-02-22.16:58:44::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt"
+		}]
+}
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt"
+		}]
+}
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-22.16:58:44::SCWMssOS::No sw design opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::mss does not exists at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Creating sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Adding the swdes entry, created swdb /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::updating the scw layer changes to swdes at   /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Writing mss at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.16:58:44::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-02-22.16:58:44::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.16:58:44::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-02-22.16:58:44::SCWMssOS::Writing the mss file completed /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-02-22.16:58:44::SCWPlatform::Started generating the artifacts platform hw_top_edu_bbt
+TRACE::2022-02-22.16:58:44::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-22.16:58:44::SCWPlatform::Started generating the artifacts for system configuration hw_top_edu_bbt
+LOG::2022-02-22.16:58:44::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-02-22.16:58:44::SCWSystem::Not a boot domain 
+LOG::2022-02-22.16:58:44::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-02-22.16:58:44::SCWDomain::Generating domain artifcats
+TRACE::2022-02-22.16:58:44::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-22.16:58:44::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.16:58:44::SCWMssOS::Mss edits present, copying mssfile into export location /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-22.16:58:44::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-22.16:58:44::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-02-22.16:58:44::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-02-22.16:58:44::SCWMssOS::Copying to export directory.
+TRACE::2022-02-22.16:58:44::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-22.16:58:44::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-22.16:58:44::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-02-22.16:58:44::SCWSystem::Completed Processing the sysconfig hw_top_edu_bbt
+LOG::2022-02-22.16:58:44::SCWPlatform::Completed generating the artifacts for system configuration hw_top_edu_bbt
+TRACE::2022-02-22.16:58:44::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-22.16:58:44::SCWSystem::Writing the bif file for system config hw_top_edu_bbt
+TRACE::2022-02-22.16:58:44::SCWSystem::dir created 
+TRACE::2022-02-22.16:58:44::SCWSystem::Writing the bif 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Completed generating the platform
+TRACE::2022-02-22.16:58:44::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-22.16:58:44::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-02-22.16:58:44::SCWPlatform::Started generating the artifacts platform hw_top_edu_bbt
+TRACE::2022-02-22.16:58:44::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-22.16:58:44::SCWPlatform::Started generating the artifacts for system configuration hw_top_edu_bbt
+LOG::2022-02-22.16:58:44::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-02-22.16:58:44::SCWDomain::Generating domain artifcats
+TRACE::2022-02-22.16:58:44::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-22.16:58:44::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.16:58:44::SCWMssOS::Mss edits present, copying mssfile into export location /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-22.16:58:44::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-22.16:58:44::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-02-22.16:58:44::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-02-22.16:58:44::SCWMssOS::Copying to export directory.
+TRACE::2022-02-22.16:58:44::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-22.16:58:44::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-22.16:58:44::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-02-22.16:58:44::SCWSystem::Completed Processing the sysconfig hw_top_edu_bbt
+LOG::2022-02-22.16:58:44::SCWPlatform::Completed generating the artifacts for system configuration hw_top_edu_bbt
+TRACE::2022-02-22.16:58:44::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-22.16:58:44::SCWSystem::Writing the bif file for system config hw_top_edu_bbt
+TRACE::2022-02-22.16:58:44::SCWSystem::dir created 
+TRACE::2022-02-22.16:58:44::SCWSystem::Writing the bif 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-22.16:58:44::SCWPlatform::Completed generating the platform
+TRACE::2022-02-22.16:58:44::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.16:58:44::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:58:44::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:58:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:58:44::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:58:44::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:58:44::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-22.16:58:44::SCWPlatform::updated the xpfm file.
+LOG::2022-02-22.16:59:19::SCWPlatform::Started generating the artifacts platform hw_top_edu_bbt
+TRACE::2022-02-22.16:59:19::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-22.16:59:19::SCWPlatform::Started generating the artifacts for system configuration hw_top_edu_bbt
+LOG::2022-02-22.16:59:19::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-02-22.16:59:19::SCWSystem::Not a boot domain 
+LOG::2022-02-22.16:59:19::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-02-22.16:59:19::SCWDomain::Generating domain artifcats
+TRACE::2022-02-22.16:59:19::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-22.16:59:19::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-22.16:59:19::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:19::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:19::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:19::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:59:19::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:19::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:59:19::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:19::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:59:19::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:19::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:19::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.16:59:19::SCWMssOS::Mss edits present, copying mssfile into export location /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:19::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-22.16:59:19::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-22.16:59:19::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-02-22.16:59:19::SCWMssOS::doing bsp build ... 
+TRACE::2022-02-22.16:59:19::SCWMssOS::System Command Ran  cd  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp ; bash -c "make  " 
+TRACE::2022-02-22.16:59:19::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make include in microblaze_0/libsrc/gpio_v4_8/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-22.16:59:19::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-02-22.16:59:19::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-02-22.16:59:19::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-02-22.16:59:19::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-22.16:59:19::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-02-22.16:59:19::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-02-22.16:59:19::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-02-22.16:59:19::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-22.16:59:19::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-02-22.16:59:19::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-02-22.16:59:19::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-02-22.16:59:19::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-22.16:59:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-02-22.16:59:19::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make libs in microblaze_0/libsrc/gpio_v4_8/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-22.16:59:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-02-22.16:59:19::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-22.16:59:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-02-22.16:59:19::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-02-22.16:59:19::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-02-22.16:59:19::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-02-22.16:59:19::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0
+TRACE::2022-02-22.16:59:21::SCWMssOS::/lib/xil_assert.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_flush_dcache.o mic
+TRACE::2022-02-22.16:59:21::SCWMssOS::roblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_exception
+TRACE::2022-02-22.16:59:21::SCWMssOS::.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_disable_exceptions.o microblaze_0/lib/x
+TRACE::2022-02-22.16:59:21::SCWMssOS::uartlite_stats.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_init_dcache_range.o microb
+TRACE::2022-02-22.16:59:21::SCWMssOS::laze_0/lib/xuartlite_intr.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xio.o microbl
+TRACE::2022-02-22.16:59:21::SCWMssOS::aze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/xbram_g.o microblaze_0/lib
+TRACE::2022-02-22.16:59:21::SCWMssOS::/xil_testcache.o microblaze_0/lib/xil_util.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/microblaze_selftest.o micro
+TRACE::2022-02-22.16:59:21::SCWMssOS::blaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/micr
+TRACE::2022-02-22.16:59:21::SCWMssOS::oblaze_invalidate_cache_ext.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0
+TRACE::2022-02-22.16:59:21::SCWMssOS::/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_flush_
+TRACE::2022-02-22.16:59:21::SCWMssOS::dcache_range.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/microblaze_update_dcache.o mic
+TRACE::2022-02-22.16:59:21::SCWMssOS::roblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/microbl
+TRACE::2022-02-22.16:59:21::SCWMssOS::aze_disable_icache.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microbl
+TRACE::2022-02-22.16:59:21::SCWMssOS::aze_disable_interrupts.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/m
+TRACE::2022-02-22.16:59:21::SCWMssOS::icroblaze_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_misc_psreset_api.o mi
+TRACE::2022-02-22.16:59:21::SCWMssOS::croblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/microblaze_disable_dcache.o microbl
+TRACE::2022-02-22.16:59:21::SCWMssOS::aze_0/lib/xil_testio.o microblaze_0/lib/_exit.o microblaze_0/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xuartlite.o mi
+TRACE::2022-02-22.16:59:21::SCWMssOS::croblaze_0/lib/xplatform_info.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xil_printf.o microblaze_
+TRACE::2022-02-22.16:59:21::SCWMssOS::0/lib/xgpio_selftest.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/microblaze_ena
+TRACE::2022-02-22.16:59:21::SCWMssOS::ble_icache.o
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Finished building libraries
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Copying to export directory.
+TRACE::2022-02-22.16:59:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-22.16:59:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-22.16:59:21::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-02-22.16:59:21::SCWSystem::Completed Processing the sysconfig hw_top_edu_bbt
+LOG::2022-02-22.16:59:21::SCWPlatform::Completed generating the artifacts for system configuration hw_top_edu_bbt
+TRACE::2022-02-22.16:59:21::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-22.16:59:21::SCWSystem::Writing the bif file for system config hw_top_edu_bbt
+TRACE::2022-02-22.16:59:21::SCWSystem::dir created 
+TRACE::2022-02-22.16:59:21::SCWSystem::Writing the bif 
+TRACE::2022-02-22.16:59:21::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-22.16:59:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-22.16:59:21::SCWPlatform::Completed generating the platform
+TRACE::2022-02-22.16:59:21::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.16:59:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.16:59:21::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:59:21::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:59:21::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:59:21::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-22.16:59:21::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.16:59:21::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_0
+TRACE::2022-02-22.16:59:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.16:59:21::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.16:59:21::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.16:59:21::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWPlatform::Clearing the existing platform
+TRACE::2022-02-22.17:14:11::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-02-22.17:14:11::SCWMssOS::Removing the swdes entry for  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWSystem::Clearing the domains completed.
+TRACE::2022-02-22.17:14:11::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform location is /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Removing the HwDB with name /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-22.17:14:11::SCWPlatform::Opened new HwDB with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWReader::Active system found as  hw_top_edu_bbt
+TRACE::2022-02-22.17:14:11::SCWReader::Handling sysconfig hw_top_edu_bbt
+TRACE::2022-02-22.17:14:11::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:11::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-22.17:14:11::SCWMssOS::No sw design opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::mss exists loading the mss file  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::Opened the sw design from mss  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::Adding the swdes entry /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-02-22.17:14:11::SCWMssOS::updating the scw layer about changes
+TRACE::2022-02-22.17:14:11::SCWMssOS::Opened the sw design.  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.17:14:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.17:14:11::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:14:11::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-02-22.17:14:11::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:11::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:11::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:11::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:14:11::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:11::SCWReader::No isolation master present  
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform location is /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:14::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:14::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:14::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_3
+TRACE::2022-02-22.17:14:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:14::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:14:14::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:14::SCWPlatform::update - Opened existing hwdb hw_top_edu_bbt_4
+TRACE::2022-02-22.17:14:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:14::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.17:14:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.17:14:14::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:14:14::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2022-02-22.17:14:14::SCWMssOS::Removing the swdes entry for  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:14::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-22.17:14:14::SCWPlatform::Opened new HwDB with name hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:14::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-02-22.17:14:14::SCWMssOS::Writing the mss file completed /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:14::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:14::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:14::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:14::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:14:14::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:14::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-02-22.17:14:25::SCWPlatform::Started generating the artifacts platform hw_top_edu_bbt
+TRACE::2022-02-22.17:14:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-22.17:14:25::SCWPlatform::Started generating the artifacts for system configuration hw_top_edu_bbt
+LOG::2022-02-22.17:14:25::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-02-22.17:14:25::SCWSystem::Not a boot domain 
+LOG::2022-02-22.17:14:25::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-02-22.17:14:25::SCWDomain::Generating domain artifcats
+TRACE::2022-02-22.17:14:25::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-22.17:14:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-22.17:14:25::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:25::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:25::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:25::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:25::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:14:25::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.17:14:25::SCWMssOS::Mss edits present, copying mssfile into export location /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-22.17:14:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-22.17:14:25::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-02-22.17:14:25::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-02-22.17:14:25::SCWMssOS::Copying to export directory.
+TRACE::2022-02-22.17:14:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-22.17:14:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-22.17:14:25::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-02-22.17:14:25::SCWSystem::Completed Processing the sysconfig hw_top_edu_bbt
+LOG::2022-02-22.17:14:25::SCWPlatform::Completed generating the artifacts for system configuration hw_top_edu_bbt
+TRACE::2022-02-22.17:14:25::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-22.17:14:25::SCWSystem::Writing the bif file for system config hw_top_edu_bbt
+TRACE::2022-02-22.17:14:25::SCWSystem::dir created 
+TRACE::2022-02-22.17:14:25::SCWSystem::Writing the bif 
+TRACE::2022-02-22.17:14:25::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-22.17:14:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-22.17:14:25::SCWPlatform::Completed generating the platform
+TRACE::2022-02-22.17:14:25::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.17:14:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.17:14:25::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:14:25::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:25::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:25::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:25::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:25::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:14:25::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-22.17:14:25::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-22.17:14:25::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:14:25::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:14:25::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:14:25::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:25::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_5
+TRACE::2022-02-22.17:14:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:14:25::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:14:25::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:14:25::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:57::SCWPlatform::Clearing the existing platform
+TRACE::2022-02-22.17:41:57::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-02-22.17:41:57::SCWMssOS::Removing the swdes entry for  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:57::SCWSystem::Clearing the domains completed.
+TRACE::2022-02-22.17:41:57::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-02-22.17:41:57::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:57::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:57::SCWPlatform:: Platform location is /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:57::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:57::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:57::SCWPlatform::Removing the HwDB with name /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:58::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-22.17:41:58::SCWPlatform::Opened new HwDB with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWReader::Active system found as  hw_top_edu_bbt
+TRACE::2022-02-22.17:41:58::SCWReader::Handling sysconfig hw_top_edu_bbt
+TRACE::2022-02-22.17:41:58::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:41:58::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-22.17:41:58::SCWMssOS::No sw design opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::mss exists loading the mss file  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::Opened the sw design from mss  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::Adding the swdes entry /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-02-22.17:41:58::SCWMssOS::updating the scw layer about changes
+TRACE::2022-02-22.17:41:58::SCWMssOS::Opened the sw design.  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.17:41:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.17:41:58::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:41:58::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-02-22.17:41:58::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:41:58::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:41:58::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:41:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:41:58::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:41:58::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:41:58::SCWReader::No isolation master present  
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform location is /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:01::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:42:01::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:42:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_7
+TRACE::2022-02-22.17:42:01::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_7
+TRACE::2022-02-22.17:42:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:01::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:42:01::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/tempdsa/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:01::SCWPlatform::update - Opened existing hwdb hw_top_edu_bbt_8
+TRACE::2022-02-22.17:42:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:01::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.17:42:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.17:42:01::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:42:01::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2022-02-22.17:42:01::SCWMssOS::Removing the swdes entry for  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-22.17:42:01::SCWPlatform::Opened new HwDB with name hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:01::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-02-22.17:42:01::SCWMssOS::Writing the mss file completed /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:01::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:01::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:01::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:42:01::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:01::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-02-22.17:42:16::SCWPlatform::Started generating the artifacts platform hw_top_edu_bbt
+TRACE::2022-02-22.17:42:16::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-22.17:42:16::SCWPlatform::Started generating the artifacts for system configuration hw_top_edu_bbt
+LOG::2022-02-22.17:42:16::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-02-22.17:42:16::SCWSystem::Not a boot domain 
+LOG::2022-02-22.17:42:16::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-02-22.17:42:16::SCWDomain::Generating domain artifcats
+TRACE::2022-02-22.17:42:16::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-22.17:42:16::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-22.17:42:16::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:16::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:16::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:16::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:16::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:42:16::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWMssOS::Completed writing the mss file at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-02-22.17:42:16::SCWMssOS::Mss edits present, copying mssfile into export location /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-22.17:42:16::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-22.17:42:16::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-02-22.17:42:16::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-02-22.17:42:16::SCWMssOS::Copying to export directory.
+TRACE::2022-02-22.17:42:16::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-22.17:42:16::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-22.17:42:16::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-02-22.17:42:16::SCWSystem::Completed Processing the sysconfig hw_top_edu_bbt
+LOG::2022-02-22.17:42:16::SCWPlatform::Completed generating the artifacts for system configuration hw_top_edu_bbt
+TRACE::2022-02-22.17:42:16::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-22.17:42:16::SCWSystem::Writing the bif file for system config hw_top_edu_bbt
+TRACE::2022-02-22.17:42:16::SCWSystem::dir created 
+TRACE::2022-02-22.17:42:16::SCWSystem::Writing the bif 
+TRACE::2022-02-22.17:42:16::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-22.17:42:16::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-22.17:42:16::SCWPlatform::Completed generating the platform
+TRACE::2022-02-22.17:42:16::SCWMssOS::Saving the mss changes /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-22.17:42:16::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-22.17:42:16::SCWMssOS::Commit changes completed.
+TRACE::2022-02-22.17:42:16::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:16::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:16::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:16::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:16::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:42:16::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWWriter::formatted JSON is {
+	"platformName":	"hw_top_edu_bbt",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw_top_edu_bbt",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw_top_edu_bbt.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw_top_edu_bbt",
+	"systems":	[{
+			"systemName":	"hw_top_edu_bbt",
+			"systemDesc":	"hw_top_edu_bbt",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw_top_edu_bbt",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f5500884ebf340366806163e7fdc059b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-22.17:42:16::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-22.17:42:16::SCWPlatform::Trying to open the hw design at /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA given /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA absoulate path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform::DSA directory /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw
+TRACE::2022-02-22.17:42:16::SCWPlatform:: Platform Path /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/hw/hw_top_edu_bbt.xsa
+TRACE::2022-02-22.17:42:16::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2022-02-22.17:42:16::SCWPlatform::Trying to set the existing hwdb with name hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:16::SCWPlatform::Opened existing hwdb hw_top_edu_bbt_9
+TRACE::2022-02-22.17:42:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-22.17:42:16::SCWMssOS::Checking the sw design at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-02-22.17:42:16::SCWMssOS::DEBUG:  swdes dump  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-02-22.17:42:16::SCWMssOS::Sw design exists and opened at  /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/microblaze_0/standalone_microblaze_0/bsp/system.mss

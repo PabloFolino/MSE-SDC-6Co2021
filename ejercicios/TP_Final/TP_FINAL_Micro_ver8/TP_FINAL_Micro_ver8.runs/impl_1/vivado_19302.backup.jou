@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Feb 22 17:19:58 2022
+# Process ID: 19302
+# Current directory: /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/TP_FINAL_Micro_ver8.runs/impl_1
+# Command line: vivado -log hw_top_edu_bbt.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hw_top_edu_bbt.tcl -notrace
+# Log file: /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/TP_FINAL_Micro_ver8.runs/impl_1/hw_top_edu_bbt.vdi
+# Journal file: /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/TP_FINAL_Micro_ver8.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source hw_top_edu_bbt.tcl -notrace

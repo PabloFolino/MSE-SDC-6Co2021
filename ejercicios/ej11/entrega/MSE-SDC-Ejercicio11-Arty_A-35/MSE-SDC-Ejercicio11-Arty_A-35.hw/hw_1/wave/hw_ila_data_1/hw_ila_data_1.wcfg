@@ -3,18 +3,18 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+      <db_ref path="/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/Repositorio/MSE-SDC-6Co2021/ejercicios/ej11/entrega/MSE-SDC-Ejercicio11-Arty_A-35/MSE-SDC-Ejercicio11-Arty_A-35.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
          <top_modules>
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="95"></ZoomStartTime>
-      <ZoomEndTime time="2,144"></ZoomEndTime>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="2,049"></ZoomEndTime>
       <Cursor1Time time="0"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="270"></NameColumnWidth>
+      <NameColumnWidth column_width="266"></NameColumnWidth>
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="4" />

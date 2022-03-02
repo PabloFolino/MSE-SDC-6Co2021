@@ -1,0 +1,47 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                              u_top/u_modem/u_dem/u_dem_cu/FSM_sequential_state_s_reg[0]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                              u_top/u_modem/u_mod/u_cu/counter_v_reg[21]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                              u_top/u_modem/u_mod/u_cu/counter_v_reg[20]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                               u_top/u_modem/u_mod/u_cu/counter_s_reg[1]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                               u_top/u_modem/u_mod/u_cu/counter_s_reg[4]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                              u_top/u_modem/u_mod/u_cu/counter_v_reg[14]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                              u_top/u_modem/u_mod/u_cu/counter_v_reg[16]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                                                  u_top/modem_send_s_reg/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                              u_top/u_modem/u_dem/u_dem_cu/FSM_sequential_state_s_reg[1]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |u_top/u_ila0/U0/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[5].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[0]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |u_top/u_ila0/U0/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[5].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[1]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                              u_top/u_modem/u_dem/u_dem_cu/FSM_sequential_state_s_reg[2]/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][44]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][43]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][39]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][41]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][37]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][36]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][33]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][40]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][35]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][55]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][45]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][52]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][49]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][57]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][47]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][60]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][31]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][53]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][42]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][32]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][51]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][61]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][59]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][62]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][29]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][38]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][48]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][56]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][54]_srl8/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                                                                        u_top/srst_s_reg/D|
+|       clk_out2_clk_wiz_0 |       clk_out1_clk_wiz_0 |                                           u_top/u_ila0/U0/ila_core_inst/shifted_data_in_reg[7][46]_srl8/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

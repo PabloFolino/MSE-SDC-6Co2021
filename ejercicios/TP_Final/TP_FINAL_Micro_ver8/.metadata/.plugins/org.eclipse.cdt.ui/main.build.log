@@ -1,0 +1,28 @@
+20:18:51 **** Incremental Build of configuration Debug for project main ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/sw/hw_top_edu_bbt/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:20: warning: variable 'data_rgb' set but not used [-Wunused-but-set-variable]
+  108 |  u32 data,data_btn,data_rgb,arst;
+      |                    ^~~~~~~~
+../src/helloworld.c:108:11: warning: unused variable 'data_btn' [-Wunused-variable]
+  108 |  u32 data,data_btn,data_rgb,arst;
+      |           ^~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: main.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/TP_FINAL_Micro_ver8/hw_top_edu_bbt/export/hw_top_edu_bbt/sw/hw_top_edu_bbt/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "main.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: main.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size main.elf  |tee "main.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9036	    356	   3120	  12512	   30e0	main.elf
+Finished building: main.elf.size
+ 
+
+20:18:51 Build Finished (took 439ms)
+

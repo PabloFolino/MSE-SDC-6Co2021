@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="main_system-bitFile" value="${project_loc:main}/_ide/bitstream/hw_top_edu_bbt.bit"/>
+	<item key="main_system-bmmFile" value="${project_loc:main}/_ide/bitstream/hw_top_edu_bbt.mmi"/>
+	<item key="main_system-target" value="Local"/>
+	<item key="main_system-device" value="Auto Detect"/>
+	<item key="main_system-partial_bit" value="false"/>
+	<item key="main_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="main_system"/>
+	<item key="main_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty A7-35T 210319B0C3C4A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty A7-35T-210319B0C3C4A-0362d093-0&quot;}}]}"/>
+</section>

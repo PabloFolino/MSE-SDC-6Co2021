@@ -1,80 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1639586465">
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="hw_top_edu_bbt.drc"/>
-  <File Type="BG-BGN" Name="hw_top_edu_bbt.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="hw_top_edu_bbt.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="hw_top_edu_bbt.ltx"/>
   <File Type="RBD_FILE" Name="hw_top_edu_bbt.rbd"/>
   <File Type="NPI_FILE" Name="hw_top_edu_bbt.npi"/>
   <File Type="RNPI_FILE" Name="hw_top_edu_bbt.rnpi"/>
   <File Type="CFI_FILE" Name="hw_top_edu_bbt.cfi"/>
   <File Type="RCFI_FILE" Name="hw_top_edu_bbt.rcfi"/>
-  <File Type="RDI-RDI" Name="hw_top_edu_bbt.vdi"/>
-  <File Type="PDI-FILE" Name="hw_top_edu_bbt.pdi"/>
-  <File Type="BITSTR-MMI" Name="hw_top_edu_bbt.mmi"/>
-  <File Type="BITSTR-BMM" Name="hw_top_edu_bbt_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="hw_top_edu_bbt.nky"/>
-  <File Type="BITSTR-RBT" Name="hw_top_edu_bbt.rbt"/>
-  <File Type="BITSTR-MSK" Name="hw_top_edu_bbt.msk"/>
-  <File Type="BG-BIN" Name="hw_top_edu_bbt.bin"/>
-  <File Type="BG-BIT" Name="hw_top_edu_bbt.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="hw_top_edu_bbt_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="hw_top_edu_bbt_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="hw_top_edu_bbt_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="hw_top_edu_bbt_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="hw_top_edu_bbt_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="hw_top_edu_bbt_timing_summary_postroute_physopted.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="hw_top_edu_bbt_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="hw_top_edu_bbt_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="hw_top_edu_bbt_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="hw_top_edu_bbt_methodology_drc_routed.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="hw_top_edu_bbt_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="hw_top_edu_bbt_postroute_physopt.dcp"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="hw_top_edu_bbt_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="hw_top_edu_bbt_bus_skew_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="hw_top_edu_bbt_physopt.dcp"/>
+  <File Type="PLACE-IO" Name="hw_top_edu_bbt_io_placed.rpt"/>
+  <File Type="OPT-DRC" Name="hw_top_edu_bbt_drc_opted.rpt"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="hw_top_edu_bbt.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="hw_top_edu_bbt.sysdef"/>
+  <File Type="BITSTR-MMI" Name="hw_top_edu_bbt.mmi"/>
+  <File Type="BITSTR-BMM" Name="hw_top_edu_bbt_bd.bmm"/>
+  <File Type="PLACE-UTIL-PB" Name="hw_top_edu_bbt_utilization_placed.pb"/>
+  <File Type="BG-BGN" Name="hw_top_edu_bbt.bgn"/>
+  <File Type="OPT-DCP" Name="hw_top_edu_bbt_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="hw_top_edu_bbt.hwdef"/>
+  <File Type="BG-BIT" Name="hw_top_edu_bbt.bit"/>
   <File Type="ROUTE-BUS-SKEW" Name="hw_top_edu_bbt_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="hw_top_edu_bbt_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="hw_top_edu_bbt_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="hw_top_edu_bbt_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="hw_top_edu_bbt_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="hw_top_edu_bbt_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="hw_top_edu_bbt_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="hw_top_edu_bbt_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="hw_top_edu_bbt_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="hw_top_edu_bbt_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="hw_top_edu_bbt_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="hw_top_edu_bbt_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="hw_top_edu_bbt_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="hw_top_edu_bbt_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="hw_top_edu_bbt_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="hw_top_edu_bbt_drc_routed.pb"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PA-TCL" Name="hw_top_edu_bbt.tcl"/>
+  <File Type="REPORTS-TCL" Name="hw_top_edu_bbt_reports.tcl"/>
+  <File Type="PLACE-UTIL" Name="hw_top_edu_bbt_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="hw_top_edu_bbt.drc"/>
+  <File Type="PLACE-CTRL" Name="hw_top_edu_bbt_control_sets_placed.rpt"/>
+  <File Type="PDI-FILE" Name="hw_top_edu_bbt.pdi"/>
+  <File Type="RDI-RDI" Name="hw_top_edu_bbt.vdi"/>
+  <File Type="BG-BIN" Name="hw_top_edu_bbt.bin"/>
+  <File Type="PLACE-DCP" Name="hw_top_edu_bbt_placed.dcp"/>
+  <File Type="BITSTR-MSK" Name="hw_top_edu_bbt.msk"/>
+  <File Type="PWROPT-DCP" Name="hw_top_edu_bbt_pwropt.dcp"/>
+  <File Type="BITSTR-RBT" Name="hw_top_edu_bbt.rbt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="hw_top_edu_bbt_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-NKY" Name="hw_top_edu_bbt.nky"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="hw_top_edu_bbt_incremental_reuse_pre_placed.rpt"/>
   <File Type="ROUTE-DRC" Name="hw_top_edu_bbt_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="hw_top_edu_bbt_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC-PB" Name="hw_top_edu_bbt_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="hw_top_edu_bbt_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="hw_top_edu_bbt_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="hw_top_edu_bbt_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="hw_top_edu_bbt_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="hw_top_edu_bbt_route_status.pb"/>
   <File Type="ROUTE-DCP" Name="hw_top_edu_bbt_routed.dcp"/>
   <File Type="ROUTE-ERROR-DCP" Name="hw_top_edu_bbt_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="hw_top_edu_bbt_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="hw_top_edu_bbt_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="hw_top_edu_bbt_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="hw_top_edu_bbt_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="hw_top_edu_bbt_postplace_pwropt.dcp"/>
-  <File Type="PLACE-TIMING" Name="hw_top_edu_bbt_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="hw_top_edu_bbt_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="hw_top_edu_bbt_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="hw_top_edu_bbt_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="hw_top_edu_bbt_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="hw_top_edu_bbt_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="hw_top_edu_bbt_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="hw_top_edu_bbt_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="hw_top_edu_bbt_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="hw_top_edu_bbt_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="hw_top_edu_bbt_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="hw_top_edu_bbt_pwropt.dcp"/>
-  <File Type="OPT-HWDEF" Name="hw_top_edu_bbt.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="hw_top_edu_bbt_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="hw_top_edu_bbt_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="hw_top_edu_bbt_opt.dcp"/>
-  <File Type="OPT-TIMING" Name="hw_top_edu_bbt_timing_summary_opted.rpt"/>
-  <File Type="REPORTS-TCL" Name="hw_top_edu_bbt_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="hw_top_edu_bbt_timing_summary_init.rpt"/>
-  <File Type="PA-TCL" Name="hw_top_edu_bbt.tcl"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="hw_top_edu_bbt_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="hw_top_edu_bbt_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="hw_top_edu_bbt_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="hw_top_edu_bbt_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="hw_top_edu_bbt_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="hw_top_edu_bbt_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="hw_top_edu_bbt_bus_skew_routed.rpx"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/vio_0_3/vio_0.xci">
@@ -84,211 +66,211 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/adder_signed.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/prng/adder_signed.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/bandpass_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/bandpass_filter/bandpass_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bask_mapper.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/bask_mapper.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/bb_channel.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/bb_channel.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/bb_channel_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/filter/bb_channel_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bb_demodulator.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/bb_demodulator.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/bb_modem.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/bb_modem.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/bb_modulator.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/bb_modulator.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/cordic_pipelined.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/cordic_pipelined.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/dem_control_unit.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/dem_control_unit.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/dual_port_ram.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/dual_port_ram.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/bandpass_filter/hdlcoder_bandpass_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/filter/hdlcoder_channel_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/filter/hdlcoder_channel_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/matched_filter/hdlcoder_matched_filter_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pre_filter/hdlcoder_pre_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/pulse_shaping/hdlcoder_pulse_shaping_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/pkg_edu_bbt.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/pkg_edu_bbt.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/matched_filter/matched_filter_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/matched_filter/matched_filter_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/mod_control_unit.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/mod_control_unit.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/nco.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/nco.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pll/pll.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pll/pll.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/pre_filter/pre_filter.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/pre_filter/pre_filter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/pulse_shaping/pulse_shaping_fir.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_gaussian_approx.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/prng/random_gaussian_approx.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/channel/prng/random_uniform.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/channel/prng/random_uniform.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/shift_reg.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/shift_reg.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/sif_fifo.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/fifo/sif_fifo.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/sif_uart.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/uart/sif_uart.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/fifo/simple_fifo.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/fifo/simple_fifo.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/demodulator/symb_sync.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/demodulator/symb_sync.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_edu_bbt.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/top/top_edu_bbt.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/lib/uart/uart.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/lib/uart/uart.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/modulator/zero_append.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/modulator/zero_append.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd">
+    <File Path="$PPRDIR/../../../../modem/hw/artyz7-10/edu_bbt/hw_top_edu_bbt.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Repositorio/MSE-SDC-6Co2021/modem/src/top/top_uart_loopback.vhd">
+    <File Path="$PPRDIR/../../../../modem/src/top/top_uart_loopback.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -330,7 +312,8 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
 </GenRun>

@@ -1,0 +1,25 @@
+08:27:40 **** Incremental Build of configuration Debug for project micro3 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/micro/system_wapper2/export/system_wapper2/sw/system_wapper2/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   59 |      sleep(1);
+      |      ^~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: micro3.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/micro/system_wapper2/export/system_wapper2/sw/system_wapper2/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "micro3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: micro3.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size micro3.elf  |tee "micro3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2064	    272	   3104	   5440	   1540	micro3.elf
+Finished building: micro3.elf.size
+ 
+
+08:27:40 Build Finished (took 222ms)
+

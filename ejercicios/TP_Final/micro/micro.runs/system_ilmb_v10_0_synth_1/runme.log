@@ -1,0 +1,27 @@
+
+*** Running vivado
+    with args -log system_ilmb_v10_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_ilmb_v10_0.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source system_ilmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/led_ip_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data16_ip_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data8_ip_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data16_ip_1_2'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:data8_ip:1.0'. The one found in IP location '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data8_ip_1.0' will take precedence over the same IP in locations: 
+   /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data8_ip_1_1
+   /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data8_ip_1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:data16_ip:1.0'. The one found in IP location '/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data16_ip_1.0' will take precedence over the same IP in locations: 
+   /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data16_ip_1_2
+   /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data16_ip_1
+   /home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace/ip_repo/data16_ip_1_1
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_ilmb_v10_0, cache-ID = 883e9563939bc3f7.
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 17 18:01:54 2021...

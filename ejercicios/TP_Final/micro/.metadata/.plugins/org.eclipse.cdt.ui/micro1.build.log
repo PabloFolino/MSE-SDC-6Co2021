@@ -1,0 +1,13 @@
+08:24:00 **** Incremental Build of configuration Debug for project micro1 ****
+make all 
+Building target: micro1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/pablo/Documentos/02_Maestria_en_Sistemas_Embebidos/21_Sistemas_Digitales_para_las_Comunicaciones/workspace2/micro/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "micro1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/tools/Xilinx/Vitis/2021.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-ld.real: micro1.elf section `.text' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+/tools/Xilinx/Vitis/2021.1/gnu/microblaze/lin/x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-ld.real: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 49224 bytes
+collect2.real: error: ld returned 1 exit status
+makefile:36: recipe for target 'micro1.elf' failed
+make: *** [micro1.elf] Error 1
+
+08:24:00 Build Finished (took 123ms)
+

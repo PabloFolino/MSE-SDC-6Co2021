@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../TP_FINAL_Micro_ver7.gen/sources_1/bd/system/ipshared/ec67/hdl" \
+"../../../bd/system/ip/system_lmb_bram_0/sim/system_lmb_bram_0.v" \
+"../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -19,11 +19,11 @@
       <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
     </Object>
     <Object name="u_top/u_ila0" gui_info="">
-      <Properties Property="CONTROL.DATA_DEPTH" value="2048"/>
+      <Properties Property="CONTROL.DATA_DEPTH" value="1024"/>
       <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
-      <Properties Property="CONTROL.TRIGGER_POSITION" value="1024"/>
+      <Properties Property="CONTROL.TRIGGER_POSITION" value="512"/>
       <Properties Property="CONTROL.WINDOW_COUNT" value="1"/>
-      <Properties Property="CORE_REFRESH_RATE_MS" value="10000"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="100"/>
     </Object>
   </ObjectList>
   <ObjectList object_type="hw_probe" gui_info="">

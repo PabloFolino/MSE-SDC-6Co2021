@@ -1,0 +1,2 @@
+vio_0.vhd,vhdl,xil_defaultlib,../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/sim/vio_0.vhd,incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl/verilog"incdir="../../../../MSE-SDC-Ejercicio11-Arty_A-35.gen/sources_1/ip/vio_0_1/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

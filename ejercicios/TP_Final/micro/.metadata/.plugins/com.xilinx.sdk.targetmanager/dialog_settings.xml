@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="micro1_system-bitFile" value="${project_loc:micro1}/_ide/bitstream/system_wrapper.bit"/>
+	<item key="micro1_system-bmmFile" value="${project_loc:micro1}/_ide/bitstream/system_wrapper.mmi"/>
+	<item key="micro1_system-target" value="Local"/>
+	<item key="micro1_system-device" value="Auto Detect"/>
+	<item key="micro1_system-partial_bit" value="false"/>
+	<item key="micro1_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="micro1_system"/>
+	<item key="micro1_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty A7-35T 210319B0C3C4A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty A7-35T-210319B0C3C4A-0362d093-0&quot;}}]}"/>
+</section>
